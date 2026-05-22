@@ -1,0 +1,12 @@
+{
+  "name": "@context-compression/openclaw-context-selector",
+  "version": "0.1.0",
+  "description": "Verifier-gated context-selector/v1 tool for lossless structured-context substitution.",
+  "extensions": [
+    "./index.ts"
+  ],
+  "compat": {
+    "pluginApi": ">=2026.3.24-beta.2",
+    "minGatewayVersion": "2026.3.24-beta.2"
+  }
+}

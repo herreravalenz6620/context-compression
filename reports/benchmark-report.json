@@ -1,0 +1,4232 @@
+{
+  "generated_at": "2026-05-21T21:42:51+00:00",
+  "corpus": "data/benchmark-corpus",
+  "corpus_fingerprint": {
+    "manifest_sha256": "8d4783790f6c6ceae35e6f8667c69d832cedca4cc13f50132b25b55fc9f26605",
+    "files": [
+      {
+        "file": "github-top-repos.csv",
+        "bytes": 637821,
+        "sha256": "e2094eeef3b257926355419d6790b512e94b3cf6b4a0fb2440cadd57f02b87d1"
+      },
+      {
+        "file": "github-top-repos.json",
+        "bytes": 788075,
+        "sha256": "f8d75d69a5bda6eacbc4ed6d65d89e4fb80f11204cb54b88d28d3b49c228dbe9"
+      },
+      {
+        "file": "github-top-repos.jsonl",
+        "bytes": 645735,
+        "sha256": "f396c7299fd786d2fc82b419e7403251f88f79b0d6ce5d2aa9c77ef488eaa59d"
+      },
+      {
+        "file": "github-top-repos.tsv",
+        "bytes": 637543,
+        "sha256": "11fe7966ce134fe7a2335a24c160d91a499a54299782cba8a04faed824789507"
+      },
+      {
+        "file": "hf-amazon-reviews.csv",
+        "bytes": 192759,
+        "sha256": "b11761c78dcbaa3f1fa09e7550681b806573712e3797834013e6cad261d550bc"
+      },
+      {
+        "file": "hf-amazon-reviews.json",
+        "bytes": 262978,
+        "sha256": "b691c396952bc9aa8e7838532d76b968e07a2863d8d410e2df735eb424a8d08b"
+      },
+      {
+        "file": "hf-amazon-reviews.jsonl",
+        "bytes": 232976,
+        "sha256": "e703e0cf8461df4a8986acb9a83e00bb523a2d1727db7cd7d12853e1038fd686"
+      },
+      {
+        "file": "hf-amazon-reviews.tsv",
+        "bytes": 192039,
+        "sha256": "55eaa088fa57343965bf1a342cf31b4d15f66d357eaec5a02f8e59f1d708c301"
+      },
+      {
+        "file": "hf-code-doc.csv",
+        "bytes": 11565523,
+        "sha256": "22280185fc3a3e4e7c983e0d79e24a92f06f307c057b57460386e544312aeaa0"
+      },
+      {
+        "file": "hf-code-doc.json",
+        "bytes": 11988648,
+        "sha256": "705898d1ada63f5d57222283f41d3d6679348e4a210a70475e6594deede6fa60"
+      },
+      {
+        "file": "hf-code-doc.jsonl",
+        "bytes": 11958646,
+        "sha256": "8a152053219a795c1f755a7e233ea9cc11c305f7359baacceb7da7fb13338b7e"
+      },
+      {
+        "file": "hf-code-doc.tsv",
+        "bytes": 11565507,
+        "sha256": "a9d65965e7327a5b2ecb94b3f08e7c4a2a283f932f48fe373cef93423f89155a"
+      },
+      {
+        "file": "hf-loghub-2.csv",
+        "bytes": 96769,
+        "sha256": "442db6a32424253102e21644a06ec673a3ce2307c60364492ce20f93457a18ce"
+      },
+      {
+        "file": "hf-loghub-2.json",
+        "bytes": 119784,
+        "sha256": "0980e6c6bc95c961a437823dfa334ac2897f6c2a7fd7f212d3f9860bbe2e8d58"
+      },
+      {
+        "file": "hf-loghub-2.jsonl",
+        "bytes": 107782,
+        "sha256": "b483fd93225b05cc9e3c6837af1cbe224ce3e5e2f657e5bd66a35f905e64de48"
+      },
+      {
+        "file": "hf-loghub-2.tsv",
+        "bytes": 96743,
+        "sha256": "a1d8e8bced5dd43ea407868e92d4f8f896275fa209081df812e0efe445c859e3"
+      },
+      {
+        "file": "hf-openassistant.csv",
+        "bytes": 1362436,
+        "sha256": "9fc92c7e6af8862f61eb89624a0b4f67245fbe1ddbb9689cccb3d76a68f79c2a"
+      },
+      {
+        "file": "hf-openassistant.json",
+        "bytes": 2147942,
+        "sha256": "91e62d93b0b3ea7fd770ad345b2cfe7ea6e9a6b9096f664760d66a75a34f89b7"
+      },
+      {
+        "file": "hf-openassistant.jsonl",
+        "bytes": 1540917,
+        "sha256": "644df421ec1bf79fa47b33d94e36d0a355bb7a17a14c89b0325980a4fe55b0a2"
+      },
+      {
+        "file": "hf-openassistant.tsv",
+        "bytes": 1361960,
+        "sha256": "ec5f35b86355eab903008b425840d153c37cbac3f803bda07651aaad1ccb9da5"
+      },
+      {
+        "file": "hf-squad.csv",
+        "bytes": 1041306,
+        "sha256": "f9de3e2edf16093892aa50a35109a55978a8226f82d29a167df9620f0d37f73f"
+      },
+      {
+        "file": "hf-squad.json",
+        "bytes": 1174016,
+        "sha256": "7386d9222854eb6971659e44fb81bb3c8fcf106df36d58c1c1598798056f0e37"
+      },
+      {
+        "file": "hf-squad.jsonl",
+        "bytes": 1085014,
+        "sha256": "bc9e28163aab69027ec05d1ade7a9d7e4a737807a17a34164af1c9d163264fae"
+      },
+      {
+        "file": "hf-squad.tsv",
+        "bytes": 1040498,
+        "sha256": "680bbf33f58db3d9bc961c87dd8e3539ca26efaa03902cffe0eabf60bf5f2397"
+      },
+      {
+        "file": "hf-titanic-tabular.csv",
+        "bytes": 45385,
+        "sha256": "e936f48df1c0bf606ca692359f1cd2ea034c5bef184a2ead39cd2f7bb7ff42fa"
+      },
+      {
+        "file": "hf-titanic-tabular.json",
+        "bytes": 185451,
+        "sha256": "fb57a93de74e40658f68cdee95a954f4050e579a1686f1f3b0c1baa52d511a24"
+      },
+      {
+        "file": "hf-titanic-tabular.jsonl",
+        "bytes": 137551,
+        "sha256": "164c92e024b871479c29a52d5ed30506fe0533c2755141e5532ae10201992286"
+      },
+      {
+        "file": "hf-titanic-tabular.tsv",
+        "bytes": 45385,
+        "sha256": "fe345184e6db2023c2abd2f1b3ee4bb1b8f9eca955bcb092de84bd985b05752e"
+      }
+    ]
+  },
+  "model_profile": {
+    "slug": "gpt-5.5",
+    "provider": "openai",
+    "tokenizer_family": "tiktoken",
+    "token_counter": "tiktoken",
+    "context_window": 272000,
+    "auto_compact_token_limit": null,
+    "source": "/Users/saminkhan1/Documents/codex-context-compression/model-catalog.snapshot.json"
+  },
+  "pricing": {
+    "input_price_per_1m": 5.0,
+    "monthly_calls": 100000,
+    "provider_input_tokens_per_second": 1500.0
+  },
+  "baseline_dirs": {
+    "toon": "/Users/saminkhan1/Documents/codex-context-compression/reports/generated-baselines/toon"
+  },
+  "baseline_provenance": {
+    "toon": {
+      "source": "command",
+      "path": "/Users/saminkhan1/Documents/codex-context-compression/reports/generated-baselines/toon",
+      "command_template": "/opt/homebrew/bin/npm exec --yes --package @toon-format/toon@2.3.0 -- node scripts/toon_baseline.mjs --fallback-raw-on-fail {input} {output}",
+      "manifest_path": "/Users/saminkhan1/Documents/codex-context-compression/reports/generated-baselines/toon/baseline-provenance.json"
+    }
+  },
+  "totals": {
+    "files": 28,
+    "raw_tokens": 17496442,
+    "optimized_tokens": 15162406,
+    "token_delta": 2334036,
+    "savings_ratio": 0.1334006079636077,
+    "per_call_input_cost_saved": 11.67018,
+    "monthly_input_cost_saved": 1167018.0,
+    "by_extension": {
+      "csv": {
+        "files": 7,
+        "raw_tokens": 4110345,
+        "optimized_tokens": 3798428,
+        "token_delta": 311917,
+        "best_formats": {
+          "codebook-json": 5,
+          "raw": 1,
+          "typed-codebook-row": 1
+        },
+        "savings_ratio": 0.0758858441323052,
+        "per_call_input_cost_saved": 1.559585,
+        "monthly_input_cost_saved": 155958.5
+      },
+      "json": {
+        "files": 7,
+        "raw_tokens": 4793580,
+        "optimized_tokens": 3782764,
+        "token_delta": 1010816,
+        "best_formats": {
+          "codebook-json": 5,
+          "typed-codebook-row": 1,
+          "typed-csv": 1
+        },
+        "savings_ratio": 0.21086870355767506,
+        "per_call_input_cost_saved": 5.05408,
+        "monthly_input_cost_saved": 505408.0
+      },
+      "jsonl": {
+        "files": 7,
+        "raw_tokens": 4478352,
+        "optimized_tokens": 3782764,
+        "token_delta": 695588,
+        "best_formats": {
+          "codebook-json": 5,
+          "typed-codebook-row": 1,
+          "typed-csv": 1
+        },
+        "savings_ratio": 0.15532231499444438,
+        "per_call_input_cost_saved": 3.47794,
+        "monthly_input_cost_saved": 347794.0
+      },
+      "tsv": {
+        "files": 7,
+        "raw_tokens": 4114165,
+        "optimized_tokens": 3798450,
+        "token_delta": 315715,
+        "best_formats": {
+          "codebook-json": 5,
+          "typed-codebook-row": 1,
+          "typed-csv": 1
+        },
+        "savings_ratio": 0.07673853625219212,
+        "per_call_input_cost_saved": 1.578575,
+        "monthly_input_cost_saved": 157857.5
+      }
+    },
+    "by_source": {
+      "github-top-repos": {
+        "files": 4,
+        "raw_tokens": 822418,
+        "optimized_tokens": 583066,
+        "token_delta": 239352,
+        "best_formats": {
+          "codebook-json": 4
+        },
+        "savings_ratio": 0.2910344861129012,
+        "per_call_input_cost_saved": 1.19676,
+        "monthly_input_cost_saved": 119676.0
+      },
+      "hf-amazon-reviews": {
+        "files": 4,
+        "raw_tokens": 231889,
+        "optimized_tokens": 196274,
+        "token_delta": 35615,
+        "best_formats": {
+          "raw": 1,
+          "typed-csv": 3
+        },
+        "savings_ratio": 0.15358641418954758,
+        "per_call_input_cost_saved": 0.178075,
+        "monthly_input_cost_saved": 17807.5
+      },
+      "hf-code-doc": {
+        "files": 4,
+        "raw_tokens": 12851724,
+        "optimized_tokens": 12172584,
+        "token_delta": 679140,
+        "best_formats": {
+          "typed-codebook-row": 4
+        },
+        "savings_ratio": 0.05284427209921408,
+        "per_call_input_cost_saved": 3.3957,
+        "monthly_input_cost_saved": 339570.0
+      },
+      "hf-loghub-2": {
+        "files": 4,
+        "raw_tokens": 162725,
+        "optimized_tokens": 95180,
+        "token_delta": 67545,
+        "best_formats": {
+          "codebook-json": 4
+        },
+        "savings_ratio": 0.4150868028883085,
+        "per_call_input_cost_saved": 0.337725,
+        "monthly_input_cost_saved": 33772.5
+      },
+      "hf-openassistant": {
+        "files": 4,
+        "raw_tokens": 2249389,
+        "optimized_tokens": 1755212,
+        "token_delta": 494177,
+        "best_formats": {
+          "codebook-json": 4
+        },
+        "savings_ratio": 0.2196938813162152,
+        "per_call_input_cost_saved": 2.470885,
+        "monthly_input_cost_saved": 247088.5
+      },
+      "hf-squad": {
+        "files": 4,
+        "raw_tokens": 1007209,
+        "optimized_tokens": 275338,
+        "token_delta": 731871,
+        "best_formats": {
+          "codebook-json": 4
+        },
+        "savings_ratio": 0.7266327048308743,
+        "per_call_input_cost_saved": 3.659355,
+        "monthly_input_cost_saved": 365935.5
+      },
+      "hf-titanic-tabular": {
+        "files": 4,
+        "raw_tokens": 171088,
+        "optimized_tokens": 84752,
+        "token_delta": 86336,
+        "best_formats": {
+          "codebook-json": 4
+        },
+        "savings_ratio": 0.5046291966707191,
+        "per_call_input_cost_saved": 0.43168,
+        "monthly_input_cost_saved": 43168.0
+      }
+    },
+    "latency": {
+      "load_milliseconds": 354.4702079743729,
+      "candidate_generation_milliseconds": 8386.826209018182,
+      "token_count_milliseconds": 54369.82637811161,
+      "total_milliseconds": 66012.40295799653,
+      "tokens_saved_per_millisecond": 35.35753730227241,
+      "break_even": {
+        "max_provider_input_tokens_per_second_for_break_even": 35357.537302272416,
+        "projected_input_latency_saved_milliseconds": 1556024.0,
+        "projected_net_latency_saved_milliseconds": 1490011.5970420034,
+        "projected_break_even": true
+      }
+    },
+    "external_baselines": {
+      "toon": {
+        "files_available": 28,
+        "files_missing": 0,
+        "raw_tokens": 17496442,
+        "baseline_tokens": 17864941,
+        "token_delta": -368499,
+        "wins_vs_selector": 0,
+        "ties_vs_selector": 0,
+        "losses_vs_selector": 28,
+        "savings_ratio": -0.021061367791234353,
+        "per_call_input_cost_saved": -1.842495,
+        "monthly_input_cost_saved": -184249.5
+      }
+    },
+    "candidate_ablation": {
+      "codebook-json": {
+        "files_available": 28,
+        "wins": 20,
+        "raw_tokens": 17496442,
+        "candidate_tokens": 16406096,
+        "token_delta": 1090346,
+        "rank_sum": 58,
+        "rank_best": 1,
+        "rank_worst": 5,
+        "savings_ratio": 0.062318155885636634,
+        "average_rank": 2.0714285714285716,
+        "per_call_input_cost_saved": 5.45173,
+        "monthly_input_cost_saved": 545173.0
+      },
+      "typed-codebook-row": {
+        "files_available": 18,
+        "wins": 4,
+        "raw_tokens": 15158590,
+        "candidate_tokens": 14374358,
+        "token_delta": 784232,
+        "rank_sum": 47,
+        "rank_best": 1,
+        "rank_worst": 5,
+        "savings_ratio": 0.05173515478682384,
+        "average_rank": 2.611111111111111,
+        "per_call_input_cost_saved": 3.92116,
+        "monthly_input_cost_saved": 392116.0
+      },
+      "typed-csv": {
+        "files_available": 22,
+        "wins": 3,
+        "raw_tokens": 15329678,
+        "candidate_tokens": 14532768,
+        "token_delta": 796910,
+        "rank_sum": 73,
+        "rank_best": 1,
+        "rank_worst": 7,
+        "savings_ratio": 0.051984784024817744,
+        "average_rank": 3.3181818181818183,
+        "per_call_input_cost_saved": 3.98455,
+        "monthly_input_cost_saved": 398455.0
+      },
+      "raw": {
+        "files_available": 28,
+        "wins": 1,
+        "raw_tokens": 17496442,
+        "candidate_tokens": 17496442,
+        "token_delta": 0,
+        "rank_sum": 148,
+        "rank_best": 1,
+        "rank_worst": 10,
+        "savings_ratio": 0.0,
+        "average_rank": 5.285714285714286,
+        "per_call_input_cost_saved": 0.0,
+        "monthly_input_cost_saved": 0.0
+      },
+      "typed-tsv": {
+        "files_available": 22,
+        "wins": 0,
+        "raw_tokens": 15329678,
+        "candidate_tokens": 14541860,
+        "token_delta": 787818,
+        "rank_sum": 88,
+        "rank_best": 2,
+        "rank_worst": 8,
+        "savings_ratio": 0.05139168611369397,
+        "average_rank": 4.0,
+        "per_call_input_cost_saved": 3.93909,
+        "monthly_input_cost_saved": 393909.0
+      },
+      "column-json": {
+        "files_available": 28,
+        "wins": 0,
+        "raw_tokens": 17496442,
+        "candidate_tokens": 17476598,
+        "token_delta": 19844,
+        "rank_sum": 114,
+        "rank_best": 2,
+        "rank_worst": 7,
+        "savings_ratio": 0.0011341734508078843,
+        "average_rank": 4.071428571428571,
+        "per_call_input_cost_saved": 0.09922,
+        "monthly_input_cost_saved": 9922.0
+      },
+      "codebook-row": {
+        "files_available": 24,
+        "wins": 0,
+        "raw_tokens": 17325354,
+        "candidate_tokens": 17875160,
+        "token_delta": -549806,
+        "rank_sum": 158,
+        "rank_best": 3,
+        "rank_worst": 9,
+        "savings_ratio": -0.03173418563337869,
+        "average_rank": 6.583333333333333,
+        "per_call_input_cost_saved": -2.74903,
+        "monthly_input_cost_saved": -274903.0
+      },
+      "compact-json": {
+        "files_available": 28,
+        "wins": 0,
+        "raw_tokens": 17496442,
+        "candidate_tokens": 17927812,
+        "token_delta": -431370,
+        "rank_sum": 188,
+        "rank_best": 3,
+        "rank_worst": 10,
+        "savings_ratio": -0.024654726943912367,
+        "average_rank": 6.714285714285714,
+        "per_call_input_cost_saved": -2.15685,
+        "monthly_input_cost_saved": -215685.0
+      },
+      "csv": {
+        "files_available": 28,
+        "wins": 0,
+        "raw_tokens": 17496442,
+        "candidate_tokens": 18175682,
+        "token_delta": -679240,
+        "rank_sum": 207,
+        "rank_best": 5,
+        "rank_worst": 10,
+        "savings_ratio": -0.03882160727306729,
+        "average_rank": 7.392857142857143,
+        "per_call_input_cost_saved": -3.3962,
+        "monthly_input_cost_saved": -339620.0
+      },
+      "tsv": {
+        "files_available": 24,
+        "wins": 0,
+        "raw_tokens": 17333717,
+        "candidate_tokens": 18022962,
+        "token_delta": -689245,
+        "rank_sum": 181,
+        "rank_best": 5,
+        "rank_worst": 10,
+        "savings_ratio": -0.03976325447104046,
+        "average_rank": 7.541666666666667,
+        "per_call_input_cost_saved": -3.446225,
+        "monthly_input_cost_saved": -344622.5
+      }
+    }
+  },
+  "results": [
+    {
+      "file": "data/benchmark-corpus/github-top-repos.csv",
+      "kind": "csv",
+      "bytes": 637821,
+      "raw_tokens": 203946,
+      "best": {
+        "candidate": "codebook-json",
+        "total_tokens": 147322,
+        "payload_tokens": 147302,
+        "instruction_tokens": 20,
+        "token_delta": 56624,
+        "savings_ratio": 0.27764212095358576,
+        "per_call_input_cost_saved": 0.28312,
+        "monthly_input_cost_saved": 28312.0
+      },
+      "candidates": [
+        {
+          "candidate": "codebook-json",
+          "total_tokens": 147322,
+          "payload_tokens": 147302,
+          "instruction_tokens": 20,
+          "token_delta": 56624,
+          "savings_ratio": 0.27764212095358576,
+          "per_call_input_cost_saved": 0.28312,
+          "monthly_input_cost_saved": 28312.0
+        },
+        {
+          "candidate": "column-json",
+          "total_tokens": 173826,
+          "payload_tokens": 173820,
+          "instruction_tokens": 6,
+          "token_delta": 30120,
+          "savings_ratio": 0.14768615221676326,
+          "per_call_input_cost_saved": 0.1506,
+          "monthly_input_cost_saved": 15060.0
+        },
+        {
+          "candidate": "typed-codebook-row",
+          "total_tokens": 180992,
+          "payload_tokens": 180965,
+          "instruction_tokens": 27,
+          "token_delta": 22954,
+          "savings_ratio": 0.11254940033146028,
+          "per_call_input_cost_saved": 0.11477,
+          "monthly_input_cost_saved": 11477.0
+        },
+        {
+          "candidate": "compact-json",
+          "total_tokens": 185252,
+          "payload_tokens": 185248,
+          "instruction_tokens": 4,
+          "token_delta": 18694,
+          "savings_ratio": 0.09166151824502565,
+          "per_call_input_cost_saved": 0.09347,
+          "monthly_input_cost_saved": 9347.0
+        },
+        {
+          "candidate": "codebook-row",
+          "total_tokens": 188540,
+          "payload_tokens": 188522,
+          "instruction_tokens": 18,
+          "token_delta": 15406,
+          "savings_ratio": 0.07553960362056623,
+          "per_call_input_cost_saved": 0.07703,
+          "monthly_input_cost_saved": 7703.0
+        },
+        {
+          "candidate": "raw",
+          "total_tokens": 203946,
+          "payload_tokens": 203946,
+          "instruction_tokens": 0,
+          "token_delta": 0,
+          "savings_ratio": 0.0,
+          "per_call_input_cost_saved": 0.0,
+          "monthly_input_cost_saved": 0.0
+        },
+        {
+          "candidate": "typed-csv",
+          "total_tokens": 203976,
+          "payload_tokens": 203959,
+          "instruction_tokens": 17,
+          "token_delta": -30,
+          "savings_ratio": -0.00014709776117207497,
+          "per_call_input_cost_saved": -0.00015,
+          "monthly_input_cost_saved": -15.0
+        },
+        {
+          "candidate": "typed-tsv",
+          "total_tokens": 204459,
+          "payload_tokens": 204442,
+          "instruction_tokens": 17,
+          "token_delta": -513,
+          "savings_ratio": -0.002515371716042482,
+          "per_call_input_cost_saved": -0.002565,
+          "monthly_input_cost_saved": -256.5
+        },
+        {
+          "candidate": "csv",
+          "total_tokens": 213438,
+          "payload_tokens": 213433,
+          "instruction_tokens": 5,
+          "token_delta": -9492,
+          "savings_ratio": -0.04654173163484452,
+          "per_call_input_cost_saved": -0.04746,
+          "monthly_input_cost_saved": -4746.0
+        },
+        {
+          "candidate": "tsv",
+          "total_tokens": 213536,
+          "payload_tokens": 213531,
+          "instruction_tokens": 5,
+          "token_delta": -9590,
+          "savings_ratio": -0.04702225098800663,
+          "per_call_input_cost_saved": -0.04795,
+          "monthly_input_cost_saved": -4795.0
+        }
+      ],
+      "external_baselines": [
+        {
+          "baseline": "toon",
+          "available": true,
+          "source_file": "/Users/saminkhan1/Documents/codex-context-compression/reports/generated-baselines/toon/github-top-repos.csv.txt",
+          "bytes": 643424,
+          "total_tokens": 173722,
+          "token_delta": 30224,
+          "savings_ratio": 0.14819609112215978,
+          "per_call_input_cost_saved": 0.15112,
+          "monthly_input_cost_saved": 15112.0
+        }
+      ],
+      "latency": {
+        "load_milliseconds": 4.982541999197565,
+        "candidate_generation_milliseconds": 103.4213329985505,
+        "token_count_milliseconds": 650.3146229952108,
+        "total_milliseconds": 784.9840420021792,
+        "tokens_saved_per_millisecond": 72.13395046296088,
+        "break_even": {
+          "max_provider_input_tokens_per_second_for_break_even": 72133.95046296089,
+          "projected_input_latency_saved_milliseconds": 37749.333333333336,
+          "projected_net_latency_saved_milliseconds": 36964.34929133116,
+          "projected_break_even": true
+        }
+      }
+    },
+    {
+      "file": "data/benchmark-corpus/github-top-repos.json",
+      "kind": "json",
+      "bytes": 788075,
+      "raw_tokens": 233167,
+      "best": {
+        "candidate": "codebook-json",
+        "total_tokens": 144211,
+        "payload_tokens": 144191,
+        "instruction_tokens": 20,
+        "token_delta": 88956,
+        "savings_ratio": 0.3815119635282866,
+        "per_call_input_cost_saved": 0.44478,
+        "monthly_input_cost_saved": 44478.0
+      },
+      "candidates": [
+        {
+          "candidate": "codebook-json",
+          "total_tokens": 144211,
+          "payload_tokens": 144191,
+          "instruction_tokens": 20,
+          "token_delta": 88956,
+          "savings_ratio": 0.3815119635282866,
+          "per_call_input_cost_saved": 0.44478,
+          "monthly_input_cost_saved": 44478.0
+        },
+        {
+          "candidate": "column-json",
+          "total_tokens": 170013,
+          "payload_tokens": 170007,
+          "instruction_tokens": 6,
+          "token_delta": 63154,
+          "savings_ratio": 0.2708530795524238,
+          "per_call_input_cost_saved": 0.31577,
+          "monthly_input_cost_saved": 31577.0
+        },
+        {
+          "candidate": "compact-json",
+          "total_tokens": 180819,
+          "payload_tokens": 180815,
+          "instruction_tokens": 4,
+          "token_delta": 52348,
+          "savings_ratio": 0.22450861399769265,
+          "per_call_input_cost_saved": 0.26174,
+          "monthly_input_cost_saved": 26174.0
+        },
+        {
+          "candidate": "codebook-row",
+          "total_tokens": 184458,
+          "payload_tokens": 184440,
+          "instruction_tokens": 18,
+          "token_delta": 48709,
+          "savings_ratio": 0.20890177426479734,
+          "per_call_input_cost_saved": 0.243545,
+          "monthly_input_cost_saved": 24354.5
+        },
+        {
+          "candidate": "csv",
+          "total_tokens": 208330,
+          "payload_tokens": 208325,
+          "instruction_tokens": 5,
+          "token_delta": 24837,
+          "savings_ratio": 0.10652021941355337,
+          "per_call_input_cost_saved": 0.124185,
+          "monthly_input_cost_saved": 12418.5
+        },
+        {
+          "candidate": "tsv",
+          "total_tokens": 208695,
+          "payload_tokens": 208690,
+          "instruction_tokens": 5,
+          "token_delta": 24472,
+          "savings_ratio": 0.10495481779153996,
+          "per_call_input_cost_saved": 0.12236,
+          "monthly_input_cost_saved": 12236.0
+        },
+        {
+          "candidate": "raw",
+          "total_tokens": 233167,
+          "payload_tokens": 233167,
+          "instruction_tokens": 0,
+          "token_delta": 0,
+          "savings_ratio": 0.0,
+          "per_call_input_cost_saved": 0.0,
+          "monthly_input_cost_saved": 0.0
+        }
+      ],
+      "external_baselines": [
+        {
+          "baseline": "toon",
+          "available": true,
+          "source_file": "/Users/saminkhan1/Documents/codex-context-compression/reports/generated-baselines/toon/github-top-repos.json.txt",
+          "bytes": 692224,
+          "total_tokens": 201052,
+          "token_delta": 32115,
+          "savings_ratio": 0.13773389887934398,
+          "per_call_input_cost_saved": 0.160575,
+          "monthly_input_cost_saved": 16057.5
+        }
+      ],
+      "latency": {
+        "load_milliseconds": 4.431083005329128,
+        "candidate_generation_milliseconds": 85.62633299879963,
+        "token_count_milliseconds": 417.63324900966836,
+        "total_milliseconds": 541.9510830033687,
+        "tokens_saved_per_millisecond": 164.14027536770706,
+        "break_even": {
+          "max_provider_input_tokens_per_second_for_break_even": 164140.27536770704,
+          "projected_input_latency_saved_milliseconds": 59304.0,
+          "projected_net_latency_saved_milliseconds": 58762.04891699663,
+          "projected_break_even": true
+        }
+      }
+    },
+    {
+      "file": "data/benchmark-corpus/github-top-repos.jsonl",
+      "kind": "jsonl",
+      "bytes": 645735,
+      "raw_tokens": 180876,
+      "best": {
+        "candidate": "codebook-json",
+        "total_tokens": 144211,
+        "payload_tokens": 144191,
+        "instruction_tokens": 20,
+        "token_delta": 36665,
+        "savings_ratio": 0.20270793250624738,
+        "per_call_input_cost_saved": 0.183325,
+        "monthly_input_cost_saved": 18332.5
+      },
+      "candidates": [
+        {
+          "candidate": "codebook-json",
+          "total_tokens": 144211,
+          "payload_tokens": 144191,
+          "instruction_tokens": 20,
+          "token_delta": 36665,
+          "savings_ratio": 0.20270793250624738,
+          "per_call_input_cost_saved": 0.183325,
+          "monthly_input_cost_saved": 18332.5
+        },
+        {
+          "candidate": "column-json",
+          "total_tokens": 170013,
+          "payload_tokens": 170007,
+          "instruction_tokens": 6,
+          "token_delta": 10863,
+          "savings_ratio": 0.06005771910037816,
+          "per_call_input_cost_saved": 0.054315,
+          "monthly_input_cost_saved": 5431.5
+        },
+        {
+          "candidate": "compact-json",
+          "total_tokens": 180819,
+          "payload_tokens": 180815,
+          "instruction_tokens": 4,
+          "token_delta": 57,
+          "savings_ratio": 0.0003151330193060439,
+          "per_call_input_cost_saved": 0.000285,
+          "monthly_input_cost_saved": 28.5
+        },
+        {
+          "candidate": "raw",
+          "total_tokens": 180876,
+          "payload_tokens": 180876,
+          "instruction_tokens": 0,
+          "token_delta": 0,
+          "savings_ratio": 0.0,
+          "per_call_input_cost_saved": 0.0,
+          "monthly_input_cost_saved": 0.0
+        },
+        {
+          "candidate": "codebook-row",
+          "total_tokens": 184458,
+          "payload_tokens": 184440,
+          "instruction_tokens": 18,
+          "token_delta": -3582,
+          "savings_ratio": -0.01980362237112718,
+          "per_call_input_cost_saved": -0.01791,
+          "monthly_input_cost_saved": -1791.0
+        },
+        {
+          "candidate": "csv",
+          "total_tokens": 208330,
+          "payload_tokens": 208325,
+          "instruction_tokens": 5,
+          "token_delta": -27454,
+          "savings_ratio": -0.15178354231628297,
+          "per_call_input_cost_saved": -0.13727,
+          "monthly_input_cost_saved": -13727.0
+        },
+        {
+          "candidate": "tsv",
+          "total_tokens": 208695,
+          "payload_tokens": 208690,
+          "instruction_tokens": 5,
+          "token_delta": -27819,
+          "savings_ratio": -0.15380149936973397,
+          "per_call_input_cost_saved": -0.139095,
+          "monthly_input_cost_saved": -13909.5
+        }
+      ],
+      "external_baselines": [
+        {
+          "baseline": "toon",
+          "available": true,
+          "source_file": "/Users/saminkhan1/Documents/codex-context-compression/reports/generated-baselines/toon/github-top-repos.jsonl.txt",
+          "bytes": 692224,
+          "total_tokens": 201052,
+          "token_delta": -20176,
+          "savings_ratio": -0.11154603153541653,
+          "per_call_input_cost_saved": -0.10088,
+          "monthly_input_cost_saved": -10088.0
+        }
+      ],
+      "latency": {
+        "load_milliseconds": 3.752666998479981,
+        "candidate_generation_milliseconds": 85.79304200247861,
+        "token_count_milliseconds": 387.1117090093321,
+        "total_milliseconds": 510.9726249938831,
+        "tokens_saved_per_millisecond": 71.75531174578857,
+        "break_even": {
+          "max_provider_input_tokens_per_second_for_break_even": 71755.31174578858,
+          "projected_input_latency_saved_milliseconds": 24443.333333333332,
+          "projected_net_latency_saved_milliseconds": 23932.36070833945,
+          "projected_break_even": true
+        }
+      }
+    },
+    {
+      "file": "data/benchmark-corpus/github-top-repos.tsv",
+      "kind": "tsv",
+      "bytes": 637543,
+      "raw_tokens": 204429,
+      "best": {
+        "candidate": "codebook-json",
+        "total_tokens": 147322,
+        "payload_tokens": 147302,
+        "instruction_tokens": 20,
+        "token_delta": 57107,
+        "savings_ratio": 0.27934882037284336,
+        "per_call_input_cost_saved": 0.285535,
+        "monthly_input_cost_saved": 28553.5
+      },
+      "candidates": [
+        {
+          "candidate": "codebook-json",
+          "total_tokens": 147322,
+          "payload_tokens": 147302,
+          "instruction_tokens": 20,
+          "token_delta": 57107,
+          "savings_ratio": 0.27934882037284336,
+          "per_call_input_cost_saved": 0.285535,
+          "monthly_input_cost_saved": 28553.5
+        },
+        {
+          "candidate": "column-json",
+          "total_tokens": 173826,
+          "payload_tokens": 173820,
+          "instruction_tokens": 6,
+          "token_delta": 30603,
+          "savings_ratio": 0.14969989580734633,
+          "per_call_input_cost_saved": 0.153015,
+          "monthly_input_cost_saved": 15301.5
+        },
+        {
+          "candidate": "typed-codebook-row",
+          "total_tokens": 180992,
+          "payload_tokens": 180965,
+          "instruction_tokens": 27,
+          "token_delta": 23437,
+          "savings_ratio": 0.1146461607697538,
+          "per_call_input_cost_saved": 0.117185,
+          "monthly_input_cost_saved": 11718.5
+        },
+        {
+          "candidate": "compact-json",
+          "total_tokens": 185252,
+          "payload_tokens": 185248,
+          "instruction_tokens": 4,
+          "token_delta": 19177,
+          "savings_ratio": 0.09380763003292096,
+          "per_call_input_cost_saved": 0.095885,
+          "monthly_input_cost_saved": 9588.5
+        },
+        {
+          "candidate": "codebook-row",
+          "total_tokens": 188540,
+          "payload_tokens": 188522,
+          "instruction_tokens": 18,
+          "token_delta": 15889,
+          "savings_ratio": 0.07772380630928097,
+          "per_call_input_cost_saved": 0.079445,
+          "monthly_input_cost_saved": 7944.5
+        },
+        {
+          "candidate": "typed-csv",
+          "total_tokens": 203976,
+          "payload_tokens": 203959,
+          "instruction_tokens": 17,
+          "token_delta": 453,
+          "savings_ratio": 0.002215928268494196,
+          "per_call_input_cost_saved": 0.002265,
+          "monthly_input_cost_saved": 226.5
+        },
+        {
+          "candidate": "raw",
+          "total_tokens": 204429,
+          "payload_tokens": 204429,
+          "instruction_tokens": 0,
+          "token_delta": 0,
+          "savings_ratio": 0.0,
+          "per_call_input_cost_saved": 0.0,
+          "monthly_input_cost_saved": 0.0
+        },
+        {
+          "candidate": "typed-tsv",
+          "total_tokens": 204459,
+          "payload_tokens": 204442,
+          "instruction_tokens": 17,
+          "token_delta": -30,
+          "savings_ratio": -0.00014675021645656926,
+          "per_call_input_cost_saved": -0.00015,
+          "monthly_input_cost_saved": -15.0
+        },
+        {
+          "candidate": "csv",
+          "total_tokens": 213438,
+          "payload_tokens": 213433,
+          "instruction_tokens": 5,
+          "token_delta": -9009,
+          "savings_ratio": -0.04406909000190775,
+          "per_call_input_cost_saved": -0.045045,
+          "monthly_input_cost_saved": -4504.5
+        },
+        {
+          "candidate": "tsv",
+          "total_tokens": 213536,
+          "payload_tokens": 213531,
+          "instruction_tokens": 5,
+          "token_delta": -9107,
+          "savings_ratio": -0.044548474042332545,
+          "per_call_input_cost_saved": -0.045535,
+          "monthly_input_cost_saved": -4553.5
+        }
+      ],
+      "external_baselines": [
+        {
+          "baseline": "toon",
+          "available": true,
+          "source_file": "/Users/saminkhan1/Documents/codex-context-compression/reports/generated-baselines/toon/github-top-repos.tsv.txt",
+          "bytes": 643424,
+          "total_tokens": 173722,
+          "token_delta": 30707,
+          "savings_ratio": 0.15020862989106243,
+          "per_call_input_cost_saved": 0.153535,
+          "monthly_input_cost_saved": 15353.5
+        }
+      ],
+      "latency": {
+        "load_milliseconds": 4.66045799839776,
+        "candidate_generation_milliseconds": 101.19100000156322,
+        "token_count_milliseconds": 562.6060829963535,
+        "total_milliseconds": 701.1841670027934,
+        "tokens_saved_per_millisecond": 81.44365301929656,
+        "break_even": {
+          "max_provider_input_tokens_per_second_for_break_even": 81443.65301929656,
+          "projected_input_latency_saved_milliseconds": 38071.333333333336,
+          "projected_net_latency_saved_milliseconds": 37370.14916633054,
+          "projected_break_even": true
+        }
+      }
+    },
+    {
+      "file": "data/benchmark-corpus/hf-amazon-reviews.csv",
+      "kind": "csv",
+      "bytes": 192759,
+      "raw_tokens": 49052,
+      "best": {
+        "candidate": "raw",
+        "total_tokens": 49052,
+        "payload_tokens": 49052,
+        "instruction_tokens": 0,
+        "token_delta": 0,
+        "savings_ratio": 0.0,
+        "per_call_input_cost_saved": 0.0,
+        "monthly_input_cost_saved": 0.0
+      },
+      "candidates": [
+        {
+          "candidate": "raw",
+          "total_tokens": 49052,
+          "payload_tokens": 49052,
+          "instruction_tokens": 0,
+          "token_delta": 0,
+          "savings_ratio": 0.0,
+          "per_call_input_cost_saved": 0.0,
+          "monthly_input_cost_saved": 0.0
+        },
+        {
+          "candidate": "typed-csv",
+          "total_tokens": 49074,
+          "payload_tokens": 49057,
+          "instruction_tokens": 17,
+          "token_delta": -22,
+          "savings_ratio": -0.0004485036288020876,
+          "per_call_input_cost_saved": -0.00011,
+          "monthly_input_cost_saved": -11.0
+        },
+        {
+          "candidate": "typed-codebook-row",
+          "total_tokens": 49087,
+          "payload_tokens": 49060,
+          "instruction_tokens": 27,
+          "token_delta": -35,
+          "savings_ratio": -0.0007135285003669576,
+          "per_call_input_cost_saved": -0.000175,
+          "monthly_input_cost_saved": -17.5
+        },
+        {
+          "candidate": "typed-tsv",
+          "total_tokens": 49435,
+          "payload_tokens": 49418,
+          "instruction_tokens": 17,
+          "token_delta": -383,
+          "savings_ratio": -0.007808040446872707,
+          "per_call_input_cost_saved": -0.001915,
+          "monthly_input_cost_saved": -191.5
+        },
+        {
+          "candidate": "codebook-json",
+          "total_tokens": 50210,
+          "payload_tokens": 50190,
+          "instruction_tokens": 20,
+          "token_delta": -1158,
+          "savings_ratio": -0.023607600097855338,
+          "per_call_input_cost_saved": -0.00579,
+          "monthly_input_cost_saved": -579.0
+        },
+        {
+          "candidate": "column-json",
+          "total_tokens": 50267,
+          "payload_tokens": 50261,
+          "instruction_tokens": 6,
+          "token_delta": -1215,
+          "savings_ratio": -0.02476963222702438,
+          "per_call_input_cost_saved": -0.006075,
+          "monthly_input_cost_saved": -607.5
+        },
+        {
+          "candidate": "csv",
+          "total_tokens": 56263,
+          "payload_tokens": 56258,
+          "instruction_tokens": 5,
+          "token_delta": -7211,
+          "savings_ratio": -0.14700725760417516,
+          "per_call_input_cost_saved": -0.036055,
+          "monthly_input_cost_saved": -3605.5
+        },
+        {
+          "candidate": "tsv",
+          "total_tokens": 56263,
+          "payload_tokens": 56258,
+          "instruction_tokens": 5,
+          "token_delta": -7211,
+          "savings_ratio": -0.14700725760417516,
+          "per_call_input_cost_saved": -0.036055,
+          "monthly_input_cost_saved": -3605.5
+        },
+        {
+          "candidate": "codebook-row",
+          "total_tokens": 56279,
+          "payload_tokens": 56261,
+          "instruction_tokens": 18,
+          "token_delta": -7227,
+          "savings_ratio": -0.14733344206148577,
+          "per_call_input_cost_saved": -0.036135,
+          "monthly_input_cost_saved": -3613.5
+        },
+        {
+          "candidate": "compact-json",
+          "total_tokens": 58255,
+          "payload_tokens": 58251,
+          "instruction_tokens": 4,
+          "token_delta": -9203,
+          "savings_ratio": -0.187617222539346,
+          "per_call_input_cost_saved": -0.046015,
+          "monthly_input_cost_saved": -4601.5
+        }
+      ],
+      "external_baselines": [
+        {
+          "baseline": "toon",
+          "available": true,
+          "source_file": "/Users/saminkhan1/Documents/codex-context-compression/reports/generated-baselines/toon/hf-amazon-reviews.csv.txt",
+          "bytes": 198883,
+          "total_tokens": 50502,
+          "token_delta": -1450,
+          "savings_ratio": -0.029560466443773956,
+          "per_call_input_cost_saved": -0.00725,
+          "monthly_input_cost_saved": -725.0
+        }
+      ],
+      "latency": {
+        "load_milliseconds": 1.4128330003586598,
+        "candidate_generation_milliseconds": 46.31099999824073,
+        "token_count_milliseconds": 163.56516700761858,
+        "total_milliseconds": 219.07891699811444,
+        "tokens_saved_per_millisecond": 0.0,
+        "break_even": {
+          "max_provider_input_tokens_per_second_for_break_even": 0.0,
+          "projected_input_latency_saved_milliseconds": null,
+          "projected_net_latency_saved_milliseconds": null,
+          "projected_break_even": null
+        }
+      }
+    },
+    {
+      "file": "data/benchmark-corpus/hf-amazon-reviews.json",
+      "kind": "json",
+      "bytes": 262978,
+      "raw_tokens": 74176,
+      "best": {
+        "candidate": "typed-csv",
+        "total_tokens": 49074,
+        "payload_tokens": 49057,
+        "instruction_tokens": 17,
+        "token_delta": 25102,
+        "savings_ratio": 0.3384113459879206,
+        "per_call_input_cost_saved": 0.12551,
+        "monthly_input_cost_saved": 12551.0
+      },
+      "candidates": [
+        {
+          "candidate": "typed-csv",
+          "total_tokens": 49074,
+          "payload_tokens": 49057,
+          "instruction_tokens": 17,
+          "token_delta": 25102,
+          "savings_ratio": 0.3384113459879206,
+          "per_call_input_cost_saved": 0.12551,
+          "monthly_input_cost_saved": 12551.0
+        },
+        {
+          "candidate": "typed-codebook-row",
+          "total_tokens": 49087,
+          "payload_tokens": 49060,
+          "instruction_tokens": 27,
+          "token_delta": 25089,
+          "savings_ratio": 0.33823608714408976,
+          "per_call_input_cost_saved": 0.125445,
+          "monthly_input_cost_saved": 12544.5
+        },
+        {
+          "candidate": "typed-tsv",
+          "total_tokens": 49435,
+          "payload_tokens": 49418,
+          "instruction_tokens": 17,
+          "token_delta": 24741,
+          "savings_ratio": 0.3335445427092321,
+          "per_call_input_cost_saved": 0.123705,
+          "monthly_input_cost_saved": 12370.5
+        },
+        {
+          "candidate": "column-json",
+          "total_tokens": 50185,
+          "payload_tokens": 50179,
+          "instruction_tokens": 6,
+          "token_delta": 23991,
+          "savings_ratio": 0.32343345556514236,
+          "per_call_input_cost_saved": 0.119955,
+          "monthly_input_cost_saved": 11995.5
+        },
+        {
+          "candidate": "codebook-json",
+          "total_tokens": 50204,
+          "payload_tokens": 50184,
+          "instruction_tokens": 20,
+          "token_delta": 23972,
+          "savings_ratio": 0.3231773080241588,
+          "per_call_input_cost_saved": 0.11986,
+          "monthly_input_cost_saved": 11986.0
+        },
+        {
+          "candidate": "csv",
+          "total_tokens": 54263,
+          "payload_tokens": 54258,
+          "instruction_tokens": 5,
+          "token_delta": 19913,
+          "savings_ratio": 0.2684561044003451,
+          "per_call_input_cost_saved": 0.099565,
+          "monthly_input_cost_saved": 9956.5
+        },
+        {
+          "candidate": "tsv",
+          "total_tokens": 54263,
+          "payload_tokens": 54258,
+          "instruction_tokens": 5,
+          "token_delta": 19913,
+          "savings_ratio": 0.2684561044003451,
+          "per_call_input_cost_saved": 0.099565,
+          "monthly_input_cost_saved": 9956.5
+        },
+        {
+          "candidate": "codebook-row",
+          "total_tokens": 54279,
+          "payload_tokens": 54261,
+          "instruction_tokens": 18,
+          "token_delta": 19897,
+          "savings_ratio": 0.26824040120793785,
+          "per_call_input_cost_saved": 0.099485,
+          "monthly_input_cost_saved": 9948.5
+        },
+        {
+          "candidate": "compact-json",
+          "total_tokens": 58255,
+          "payload_tokens": 58251,
+          "instruction_tokens": 4,
+          "token_delta": 15921,
+          "savings_ratio": 0.21463815789473684,
+          "per_call_input_cost_saved": 0.079605,
+          "monthly_input_cost_saved": 7960.5
+        },
+        {
+          "candidate": "raw",
+          "total_tokens": 74176,
+          "payload_tokens": 74176,
+          "instruction_tokens": 0,
+          "token_delta": 0,
+          "savings_ratio": 0.0,
+          "per_call_input_cost_saved": 0.0,
+          "monthly_input_cost_saved": 0.0
+        }
+      ],
+      "external_baselines": [
+        {
+          "baseline": "toon",
+          "available": true,
+          "source_file": "/Users/saminkhan1/Documents/codex-context-compression/reports/generated-baselines/toon/hf-amazon-reviews.json.txt",
+          "bytes": 196883,
+          "total_tokens": 50074,
+          "token_delta": 24102,
+          "savings_ratio": 0.32492989646246767,
+          "per_call_input_cost_saved": 0.12051,
+          "monthly_input_cost_saved": 12051.0
+        }
+      ],
+      "latency": {
+        "load_milliseconds": 0.7500420033466071,
+        "candidate_generation_milliseconds": 47.611999994842336,
+        "token_count_milliseconds": 163.2075000234181,
+        "total_milliseconds": 218.81829199992353,
+        "tokens_saved_per_millisecond": 114.71618652433669,
+        "break_even": {
+          "max_provider_input_tokens_per_second_for_break_even": 114716.18652433669,
+          "projected_input_latency_saved_milliseconds": 16734.666666666668,
+          "projected_net_latency_saved_milliseconds": 16515.848374666744,
+          "projected_break_even": true
+        }
+      }
+    },
+    {
+      "file": "data/benchmark-corpus/hf-amazon-reviews.jsonl",
+      "kind": "jsonl",
+      "bytes": 232976,
+      "raw_tokens": 59248,
+      "best": {
+        "candidate": "typed-csv",
+        "total_tokens": 49074,
+        "payload_tokens": 49057,
+        "instruction_tokens": 17,
+        "token_delta": 10174,
+        "savings_ratio": 0.17171887658655144,
+        "per_call_input_cost_saved": 0.05087,
+        "monthly_input_cost_saved": 5087.0
+      },
+      "candidates": [
+        {
+          "candidate": "typed-csv",
+          "total_tokens": 49074,
+          "payload_tokens": 49057,
+          "instruction_tokens": 17,
+          "token_delta": 10174,
+          "savings_ratio": 0.17171887658655144,
+          "per_call_input_cost_saved": 0.05087,
+          "monthly_input_cost_saved": 5087.0
+        },
+        {
+          "candidate": "typed-codebook-row",
+          "total_tokens": 49087,
+          "payload_tokens": 49060,
+          "instruction_tokens": 27,
+          "token_delta": 10161,
+          "savings_ratio": 0.1714994598973805,
+          "per_call_input_cost_saved": 0.050805,
+          "monthly_input_cost_saved": 5080.5
+        },
+        {
+          "candidate": "typed-tsv",
+          "total_tokens": 49435,
+          "payload_tokens": 49418,
+          "instruction_tokens": 17,
+          "token_delta": 9813,
+          "savings_ratio": 0.16562584391034296,
+          "per_call_input_cost_saved": 0.049065,
+          "monthly_input_cost_saved": 4906.5
+        },
+        {
+          "candidate": "column-json",
+          "total_tokens": 50185,
+          "payload_tokens": 50179,
+          "instruction_tokens": 6,
+          "token_delta": 9063,
+          "savings_ratio": 0.1529671887658655,
+          "per_call_input_cost_saved": 0.045315,
+          "monthly_input_cost_saved": 4531.5
+        },
+        {
+          "candidate": "codebook-json",
+          "total_tokens": 50204,
+          "payload_tokens": 50184,
+          "instruction_tokens": 20,
+          "token_delta": 9044,
+          "savings_ratio": 0.15264650283553874,
+          "per_call_input_cost_saved": 0.04522,
+          "monthly_input_cost_saved": 4522.0
+        },
+        {
+          "candidate": "csv",
+          "total_tokens": 54263,
+          "payload_tokens": 54258,
+          "instruction_tokens": 5,
+          "token_delta": 4985,
+          "savings_ratio": 0.08413786119362679,
+          "per_call_input_cost_saved": 0.024925,
+          "monthly_input_cost_saved": 2492.5
+        },
+        {
+          "candidate": "tsv",
+          "total_tokens": 54263,
+          "payload_tokens": 54258,
+          "instruction_tokens": 5,
+          "token_delta": 4985,
+          "savings_ratio": 0.08413786119362679,
+          "per_call_input_cost_saved": 0.024925,
+          "monthly_input_cost_saved": 2492.5
+        },
+        {
+          "candidate": "codebook-row",
+          "total_tokens": 54279,
+          "payload_tokens": 54261,
+          "instruction_tokens": 18,
+          "token_delta": 4969,
+          "savings_ratio": 0.08386780988387793,
+          "per_call_input_cost_saved": 0.024845,
+          "monthly_input_cost_saved": 2484.5
+        },
+        {
+          "candidate": "compact-json",
+          "total_tokens": 58255,
+          "payload_tokens": 58251,
+          "instruction_tokens": 4,
+          "token_delta": 993,
+          "savings_ratio": 0.016760059411288143,
+          "per_call_input_cost_saved": 0.004965,
+          "monthly_input_cost_saved": 496.5
+        },
+        {
+          "candidate": "raw",
+          "total_tokens": 59248,
+          "payload_tokens": 59248,
+          "instruction_tokens": 0,
+          "token_delta": 0,
+          "savings_ratio": 0.0,
+          "per_call_input_cost_saved": 0.0,
+          "monthly_input_cost_saved": 0.0
+        }
+      ],
+      "external_baselines": [
+        {
+          "baseline": "toon",
+          "available": true,
+          "source_file": "/Users/saminkhan1/Documents/codex-context-compression/reports/generated-baselines/toon/hf-amazon-reviews.jsonl.txt",
+          "bytes": 196883,
+          "total_tokens": 50074,
+          "token_delta": 9174,
+          "savings_ratio": 0.15484066972724816,
+          "per_call_input_cost_saved": 0.04587,
+          "monthly_input_cost_saved": 4587.0
+        }
+      ],
+      "latency": {
+        "load_milliseconds": 1.1125829987577163,
+        "candidate_generation_milliseconds": 47.38637500122422,
+        "token_count_milliseconds": 160.22037599759642,
+        "total_milliseconds": 216.4262090009288,
+        "tokens_saved_per_millisecond": 47.00909398619249,
+        "break_even": {
+          "max_provider_input_tokens_per_second_for_break_even": 47009.093986192485,
+          "projected_input_latency_saved_milliseconds": 6782.666666666667,
+          "projected_net_latency_saved_milliseconds": 6566.240457665738,
+          "projected_break_even": true
+        }
+      }
+    },
+    {
+      "file": "data/benchmark-corpus/hf-amazon-reviews.tsv",
+      "kind": "tsv",
+      "bytes": 192039,
+      "raw_tokens": 49413,
+      "best": {
+        "candidate": "typed-csv",
+        "total_tokens": 49074,
+        "payload_tokens": 49057,
+        "instruction_tokens": 17,
+        "token_delta": 339,
+        "savings_ratio": 0.006860542772144982,
+        "per_call_input_cost_saved": 0.001695,
+        "monthly_input_cost_saved": 169.5
+      },
+      "candidates": [
+        {
+          "candidate": "typed-csv",
+          "total_tokens": 49074,
+          "payload_tokens": 49057,
+          "instruction_tokens": 17,
+          "token_delta": 339,
+          "savings_ratio": 0.006860542772144982,
+          "per_call_input_cost_saved": 0.001695,
+          "monthly_input_cost_saved": 169.5
+        },
+        {
+          "candidate": "typed-codebook-row",
+          "total_tokens": 49087,
+          "payload_tokens": 49060,
+          "instruction_tokens": 27,
+          "token_delta": 326,
+          "savings_ratio": 0.006597454111266266,
+          "per_call_input_cost_saved": 0.00163,
+          "monthly_input_cost_saved": 163.0
+        },
+        {
+          "candidate": "raw",
+          "total_tokens": 49413,
+          "payload_tokens": 49413,
+          "instruction_tokens": 0,
+          "token_delta": 0,
+          "savings_ratio": 0.0,
+          "per_call_input_cost_saved": 0.0,
+          "monthly_input_cost_saved": 0.0
+        },
+        {
+          "candidate": "typed-tsv",
+          "total_tokens": 49435,
+          "payload_tokens": 49418,
+          "instruction_tokens": 17,
+          "token_delta": -22,
+          "savings_ratio": -0.00044522696456398116,
+          "per_call_input_cost_saved": -0.00011,
+          "monthly_input_cost_saved": -11.0
+        },
+        {
+          "candidate": "codebook-json",
+          "total_tokens": 50210,
+          "payload_tokens": 50190,
+          "instruction_tokens": 20,
+          "token_delta": -797,
+          "savings_ratio": -0.016129358670795135,
+          "per_call_input_cost_saved": -0.003985,
+          "monthly_input_cost_saved": -398.5
+        },
+        {
+          "candidate": "column-json",
+          "total_tokens": 50267,
+          "payload_tokens": 50261,
+          "instruction_tokens": 6,
+          "token_delta": -854,
+          "savings_ratio": -0.017282901260801814,
+          "per_call_input_cost_saved": -0.00427,
+          "monthly_input_cost_saved": -427.0
+        },
+        {
+          "candidate": "csv",
+          "total_tokens": 56263,
+          "payload_tokens": 56258,
+          "instruction_tokens": 5,
+          "token_delta": -6850,
+          "savings_ratio": -0.13862748669378502,
+          "per_call_input_cost_saved": -0.03425,
+          "monthly_input_cost_saved": -3425.0
+        },
+        {
+          "candidate": "tsv",
+          "total_tokens": 56263,
+          "payload_tokens": 56258,
+          "instruction_tokens": 5,
+          "token_delta": -6850,
+          "savings_ratio": -0.13862748669378502,
+          "per_call_input_cost_saved": -0.03425,
+          "monthly_input_cost_saved": -3425.0
+        },
+        {
+          "candidate": "codebook-row",
+          "total_tokens": 56279,
+          "payload_tokens": 56261,
+          "instruction_tokens": 18,
+          "token_delta": -6866,
+          "savings_ratio": -0.13895128812255883,
+          "per_call_input_cost_saved": -0.03433,
+          "monthly_input_cost_saved": -3433.0
+        },
+        {
+          "candidate": "compact-json",
+          "total_tokens": 58255,
+          "payload_tokens": 58251,
+          "instruction_tokens": 4,
+          "token_delta": -8842,
+          "savings_ratio": -0.17894076457612368,
+          "per_call_input_cost_saved": -0.04421,
+          "monthly_input_cost_saved": -4421.0
+        }
+      ],
+      "external_baselines": [
+        {
+          "baseline": "toon",
+          "available": true,
+          "source_file": "/Users/saminkhan1/Documents/codex-context-compression/reports/generated-baselines/toon/hf-amazon-reviews.tsv.txt",
+          "bytes": 198883,
+          "total_tokens": 50502,
+          "token_delta": -1089,
+          "savings_ratio": -0.022038734745917065,
+          "per_call_input_cost_saved": -0.005445,
+          "monthly_input_cost_saved": -544.5
+        }
+      ],
+      "latency": {
+        "load_milliseconds": 1.443749999452848,
+        "candidate_generation_milliseconds": 48.43079200509237,
+        "token_count_milliseconds": 159.36941900872625,
+        "total_milliseconds": 216.9900000008056,
+        "tokens_saved_per_millisecond": 1.5622839762143022,
+        "break_even": {
+          "max_provider_input_tokens_per_second_for_break_even": 1562.2839762143021,
+          "projected_input_latency_saved_milliseconds": 226.0,
+          "projected_net_latency_saved_milliseconds": 9.009999999194406,
+          "projected_break_even": true
+        }
+      }
+    },
+    {
+      "file": "data/benchmark-corpus/hf-code-doc.csv",
+      "kind": "csv",
+      "bytes": 11565523,
+      "raw_tokens": 3045398,
+      "best": {
+        "candidate": "typed-codebook-row",
+        "total_tokens": 3043146,
+        "payload_tokens": 3043119,
+        "instruction_tokens": 27,
+        "token_delta": 2252,
+        "savings_ratio": 0.0007394764165471968,
+        "per_call_input_cost_saved": 0.01126,
+        "monthly_input_cost_saved": 1126.0
+      },
+      "candidates": [
+        {
+          "candidate": "typed-codebook-row",
+          "total_tokens": 3043146,
+          "payload_tokens": 3043119,
+          "instruction_tokens": 27,
+          "token_delta": 2252,
+          "savings_ratio": 0.0007394764165471968,
+          "per_call_input_cost_saved": 0.01126,
+          "monthly_input_cost_saved": 1126.0
+        },
+        {
+          "candidate": "raw",
+          "total_tokens": 3045398,
+          "payload_tokens": 3045398,
+          "instruction_tokens": 0,
+          "token_delta": 0,
+          "savings_ratio": 0.0,
+          "per_call_input_cost_saved": 0.0,
+          "monthly_input_cost_saved": 0.0
+        },
+        {
+          "candidate": "typed-csv",
+          "total_tokens": 3045421,
+          "payload_tokens": 3045404,
+          "instruction_tokens": 17,
+          "token_delta": -23,
+          "savings_ratio": -7.552379032231583e-06,
+          "per_call_input_cost_saved": -0.000115,
+          "monthly_input_cost_saved": -11.5
+        },
+        {
+          "candidate": "typed-tsv",
+          "total_tokens": 3045790,
+          "payload_tokens": 3045773,
+          "instruction_tokens": 17,
+          "token_delta": -392,
+          "savings_ratio": -0.00012871880785368612,
+          "per_call_input_cost_saved": -0.00196,
+          "monthly_input_cost_saved": -196.0
+        },
+        {
+          "candidate": "codebook-json",
+          "total_tokens": 3352930,
+          "payload_tokens": 3352910,
+          "instruction_tokens": 20,
+          "token_delta": -307532,
+          "savings_ratio": -0.10098253167566275,
+          "per_call_input_cost_saved": -1.53766,
+          "monthly_input_cost_saved": -153766.0
+        },
+        {
+          "candidate": "column-json",
+          "total_tokens": 3363782,
+          "payload_tokens": 3363776,
+          "instruction_tokens": 6,
+          "token_delta": -318384,
+          "savings_ratio": -0.10454594112165307,
+          "per_call_input_cost_saved": -1.59192,
+          "monthly_input_cost_saved": -159192.0
+        },
+        {
+          "candidate": "compact-json",
+          "total_tokens": 3371995,
+          "payload_tokens": 3371991,
+          "instruction_tokens": 4,
+          "token_delta": -326597,
+          "savings_ratio": -0.10724279716477124,
+          "per_call_input_cost_saved": -1.632985,
+          "monthly_input_cost_saved": -163298.5
+        },
+        {
+          "candidate": "codebook-row",
+          "total_tokens": 3412827,
+          "payload_tokens": 3412809,
+          "instruction_tokens": 18,
+          "token_delta": -367429,
+          "savings_ratio": -0.12065056849712254,
+          "per_call_input_cost_saved": -1.837145,
+          "monthly_input_cost_saved": -183714.5
+        },
+        {
+          "candidate": "tsv",
+          "total_tokens": 3417288,
+          "payload_tokens": 3417283,
+          "instruction_tokens": 5,
+          "token_delta": -371890,
+          "savings_ratio": -0.12211540166506972,
+          "per_call_input_cost_saved": -1.85945,
+          "monthly_input_cost_saved": -185945.0
+        },
+        {
+          "candidate": "csv",
+          "total_tokens": 3417289,
+          "payload_tokens": 3417284,
+          "instruction_tokens": 5,
+          "token_delta": -371891,
+          "savings_ratio": -0.12211573002937547,
+          "per_call_input_cost_saved": -1.859455,
+          "monthly_input_cost_saved": -185945.5
+        }
+      ],
+      "external_baselines": [
+        {
+          "baseline": "toon",
+          "available": true,
+          "source_file": "/Users/saminkhan1/Documents/codex-context-compression/reports/generated-baselines/toon/hf-code-doc.csv.txt",
+          "bytes": 11913805,
+          "total_tokens": 3363514,
+          "token_delta": -318116,
+          "savings_ratio": -0.10445793948771227,
+          "per_call_input_cost_saved": -1.59058,
+          "monthly_input_cost_saved": -159058.0
+        }
+      ],
+      "latency": {
+        "load_milliseconds": 86.36024999577785,
+        "candidate_generation_milliseconds": 1479.2789170023752,
+        "token_count_milliseconds": 10708.607208012836,
+        "total_milliseconds": 12817.42820799991,
+        "tokens_saved_per_millisecond": 0.17569827296512022,
+        "break_even": {
+          "max_provider_input_tokens_per_second_for_break_even": 175.69827296512022,
+          "projected_input_latency_saved_milliseconds": 1501.3333333333333,
+          "projected_net_latency_saved_milliseconds": -11316.094874666576,
+          "projected_break_even": false
+        }
+      }
+    },
+    {
+      "file": "data/benchmark-corpus/hf-code-doc.json",
+      "kind": "json",
+      "bytes": 11988648,
+      "raw_tokens": 3387571,
+      "best": {
+        "candidate": "typed-codebook-row",
+        "total_tokens": 3043146,
+        "payload_tokens": 3043119,
+        "instruction_tokens": 27,
+        "token_delta": 344425,
+        "savings_ratio": 0.10167314574366117,
+        "per_call_input_cost_saved": 1.722125,
+        "monthly_input_cost_saved": 172212.5
+      },
+      "candidates": [
+        {
+          "candidate": "typed-codebook-row",
+          "total_tokens": 3043146,
+          "payload_tokens": 3043119,
+          "instruction_tokens": 27,
+          "token_delta": 344425,
+          "savings_ratio": 0.10167314574366117,
+          "per_call_input_cost_saved": 1.722125,
+          "monthly_input_cost_saved": 172212.5
+        },
+        {
+          "candidate": "typed-csv",
+          "total_tokens": 3045421,
+          "payload_tokens": 3045404,
+          "instruction_tokens": 17,
+          "token_delta": 342150,
+          "savings_ratio": 0.10100157310356005,
+          "per_call_input_cost_saved": 1.71075,
+          "monthly_input_cost_saved": 171075.0
+        },
+        {
+          "candidate": "typed-tsv",
+          "total_tokens": 3045790,
+          "payload_tokens": 3045773,
+          "instruction_tokens": 17,
+          "token_delta": 341781,
+          "savings_ratio": 0.10089264549731947,
+          "per_call_input_cost_saved": 1.708905,
+          "monthly_input_cost_saved": 170890.5
+        },
+        {
+          "candidate": "codebook-json",
+          "total_tokens": 3352930,
+          "payload_tokens": 3352910,
+          "instruction_tokens": 20,
+          "token_delta": 34641,
+          "savings_ratio": 0.01022591113219472,
+          "per_call_input_cost_saved": 0.173205,
+          "monthly_input_cost_saved": 17320.5
+        },
+        {
+          "candidate": "column-json",
+          "total_tokens": 3363782,
+          "payload_tokens": 3363776,
+          "instruction_tokens": 6,
+          "token_delta": 23789,
+          "savings_ratio": 0.0070224358397211455,
+          "per_call_input_cost_saved": 0.118945,
+          "monthly_input_cost_saved": 11894.5
+        },
+        {
+          "candidate": "compact-json",
+          "total_tokens": 3371995,
+          "payload_tokens": 3371991,
+          "instruction_tokens": 4,
+          "token_delta": 15576,
+          "savings_ratio": 0.004597984809764873,
+          "per_call_input_cost_saved": 0.07788,
+          "monthly_input_cost_saved": 7788.0
+        },
+        {
+          "candidate": "raw",
+          "total_tokens": 3387571,
+          "payload_tokens": 3387571,
+          "instruction_tokens": 0,
+          "token_delta": 0,
+          "savings_ratio": 0.0,
+          "per_call_input_cost_saved": 0.0,
+          "monthly_input_cost_saved": 0.0
+        },
+        {
+          "candidate": "codebook-row",
+          "total_tokens": 3412827,
+          "payload_tokens": 3412809,
+          "instruction_tokens": 18,
+          "token_delta": -25256,
+          "savings_ratio": -0.0074554894937995395,
+          "per_call_input_cost_saved": -0.12628,
+          "monthly_input_cost_saved": -12628.0
+        },
+        {
+          "candidate": "tsv",
+          "total_tokens": 3417288,
+          "payload_tokens": 3417283,
+          "instruction_tokens": 5,
+          "token_delta": -29717,
+          "savings_ratio": -0.0087723622619275,
+          "per_call_input_cost_saved": -0.148585,
+          "monthly_input_cost_saved": -14858.5
+        },
+        {
+          "candidate": "csv",
+          "total_tokens": 3417289,
+          "payload_tokens": 3417284,
+          "instruction_tokens": 5,
+          "token_delta": -29718,
+          "savings_ratio": -0.008772657458692379,
+          "per_call_input_cost_saved": -0.14859,
+          "monthly_input_cost_saved": -14859.0
+        }
+      ],
+      "external_baselines": [
+        {
+          "baseline": "toon",
+          "available": true,
+          "source_file": "/Users/saminkhan1/Documents/codex-context-compression/reports/generated-baselines/toon/hf-code-doc.json.txt",
+          "bytes": 11913805,
+          "total_tokens": 3363514,
+          "token_delta": 24057,
+          "savings_ratio": 0.007101548572708882,
+          "per_call_input_cost_saved": 0.120285,
+          "monthly_input_cost_saved": 12028.5
+        }
+      ],
+      "latency": {
+        "load_milliseconds": 45.26287499902537,
+        "candidate_generation_milliseconds": 1522.2499160008738,
+        "token_count_milliseconds": 10866.635540995048,
+        "total_milliseconds": 12989.199333002034,
+        "tokens_saved_per_millisecond": 26.51626102348814,
+        "break_even": {
+          "max_provider_input_tokens_per_second_for_break_even": 26516.261023488143,
+          "projected_input_latency_saved_milliseconds": 229616.66666666666,
+          "projected_net_latency_saved_milliseconds": 216627.46733366462,
+          "projected_break_even": true
+        }
+      }
+    },
+    {
+      "file": "data/benchmark-corpus/hf-code-doc.jsonl",
+      "kind": "jsonl",
+      "bytes": 11958646,
+      "raw_tokens": 3372988,
+      "best": {
+        "candidate": "typed-codebook-row",
+        "total_tokens": 3043146,
+        "payload_tokens": 3043119,
+        "instruction_tokens": 27,
+        "token_delta": 329842,
+        "savings_ratio": 0.0977892598491308,
+        "per_call_input_cost_saved": 1.64921,
+        "monthly_input_cost_saved": 164921.0
+      },
+      "candidates": [
+        {
+          "candidate": "typed-codebook-row",
+          "total_tokens": 3043146,
+          "payload_tokens": 3043119,
+          "instruction_tokens": 27,
+          "token_delta": 329842,
+          "savings_ratio": 0.0977892598491308,
+          "per_call_input_cost_saved": 1.64921,
+          "monthly_input_cost_saved": 164921.0
+        },
+        {
+          "candidate": "typed-csv",
+          "total_tokens": 3045421,
+          "payload_tokens": 3045404,
+          "instruction_tokens": 17,
+          "token_delta": 327567,
+          "savings_ratio": 0.0971147836873419,
+          "per_call_input_cost_saved": 1.637835,
+          "monthly_input_cost_saved": 163783.5
+        },
+        {
+          "candidate": "typed-tsv",
+          "total_tokens": 3045790,
+          "payload_tokens": 3045773,
+          "instruction_tokens": 17,
+          "token_delta": 327198,
+          "savings_ratio": 0.09700538513626494,
+          "per_call_input_cost_saved": 1.63599,
+          "monthly_input_cost_saved": 163599.0
+        },
+        {
+          "candidate": "codebook-json",
+          "total_tokens": 3352930,
+          "payload_tokens": 3352910,
+          "instruction_tokens": 20,
+          "token_delta": 20058,
+          "savings_ratio": 0.005946656199191933,
+          "per_call_input_cost_saved": 0.10029,
+          "monthly_input_cost_saved": 10029.0
+        },
+        {
+          "candidate": "column-json",
+          "total_tokens": 3363782,
+          "payload_tokens": 3363776,
+          "instruction_tokens": 6,
+          "token_delta": 9206,
+          "savings_ratio": 0.0027293307891993685,
+          "per_call_input_cost_saved": 0.04603,
+          "monthly_input_cost_saved": 4603.0
+        },
+        {
+          "candidate": "compact-json",
+          "total_tokens": 3371995,
+          "payload_tokens": 3371991,
+          "instruction_tokens": 4,
+          "token_delta": 993,
+          "savings_ratio": 0.0002943977268819219,
+          "per_call_input_cost_saved": 0.004965,
+          "monthly_input_cost_saved": 496.5
+        },
+        {
+          "candidate": "raw",
+          "total_tokens": 3372988,
+          "payload_tokens": 3372988,
+          "instruction_tokens": 0,
+          "token_delta": 0,
+          "savings_ratio": 0.0,
+          "per_call_input_cost_saved": 0.0,
+          "monthly_input_cost_saved": 0.0
+        },
+        {
+          "candidate": "codebook-row",
+          "total_tokens": 3412827,
+          "payload_tokens": 3412809,
+          "instruction_tokens": 18,
+          "token_delta": -39839,
+          "savings_ratio": -0.011811189366816603,
+          "per_call_input_cost_saved": -0.199195,
+          "monthly_input_cost_saved": -19919.5
+        },
+        {
+          "candidate": "tsv",
+          "total_tokens": 3417288,
+          "payload_tokens": 3417283,
+          "instruction_tokens": 5,
+          "token_delta": -44300,
+          "savings_ratio": -0.013133755589999135,
+          "per_call_input_cost_saved": -0.2215,
+          "monthly_input_cost_saved": -22150.0
+        },
+        {
+          "candidate": "csv",
+          "total_tokens": 3417289,
+          "payload_tokens": 3417284,
+          "instruction_tokens": 5,
+          "token_delta": -44301,
+          "savings_ratio": -0.013134052063037284,
+          "per_call_input_cost_saved": -0.221505,
+          "monthly_input_cost_saved": -22150.5
+        }
+      ],
+      "external_baselines": [
+        {
+          "baseline": "toon",
+          "available": true,
+          "source_file": "/Users/saminkhan1/Documents/codex-context-compression/reports/generated-baselines/toon/hf-code-doc.jsonl.txt",
+          "bytes": 11913805,
+          "total_tokens": 3363514,
+          "token_delta": 9474,
+          "savings_ratio": 0.0028087855634232914,
+          "per_call_input_cost_saved": 0.04737,
+          "monthly_input_cost_saved": 4737.0
+        }
+      ],
+      "latency": {
+        "load_milliseconds": 49.08024999895133,
+        "candidate_generation_milliseconds": 1490.870832996734,
+        "token_count_milliseconds": 10863.304584003345,
+        "total_milliseconds": 12946.920083995792,
+        "tokens_saved_per_millisecond": 25.47648381700687,
+        "break_even": {
+          "max_provider_input_tokens_per_second_for_break_even": 25476.48381700687,
+          "projected_input_latency_saved_milliseconds": 219894.66666666666,
+          "projected_net_latency_saved_milliseconds": 206947.74658267086,
+          "projected_break_even": true
+        }
+      }
+    },
+    {
+      "file": "data/benchmark-corpus/hf-code-doc.tsv",
+      "kind": "tsv",
+      "bytes": 11565507,
+      "raw_tokens": 3045767,
+      "best": {
+        "candidate": "typed-codebook-row",
+        "total_tokens": 3043146,
+        "payload_tokens": 3043119,
+        "instruction_tokens": 27,
+        "token_delta": 2621,
+        "savings_ratio": 0.0008605385769824153,
+        "per_call_input_cost_saved": 0.013105,
+        "monthly_input_cost_saved": 1310.5
+      },
+      "candidates": [
+        {
+          "candidate": "typed-codebook-row",
+          "total_tokens": 3043146,
+          "payload_tokens": 3043119,
+          "instruction_tokens": 27,
+          "token_delta": 2621,
+          "savings_ratio": 0.0008605385769824153,
+          "per_call_input_cost_saved": 0.013105,
+          "monthly_input_cost_saved": 1310.5
+        },
+        {
+          "candidate": "typed-csv",
+          "total_tokens": 3045421,
+          "payload_tokens": 3045404,
+          "instruction_tokens": 17,
+          "token_delta": 346,
+          "savings_ratio": 0.00011360028524834632,
+          "per_call_input_cost_saved": 0.00173,
+          "monthly_input_cost_saved": 173.0
+        },
+        {
+          "candidate": "raw",
+          "total_tokens": 3045767,
+          "payload_tokens": 3045767,
+          "instruction_tokens": 0,
+          "token_delta": 0,
+          "savings_ratio": 0.0,
+          "per_call_input_cost_saved": 0.0,
+          "monthly_input_cost_saved": 0.0
+        },
+        {
+          "candidate": "typed-tsv",
+          "total_tokens": 3045790,
+          "payload_tokens": 3045773,
+          "instruction_tokens": 17,
+          "token_delta": -23,
+          "savings_ratio": -7.551464048300477e-06,
+          "per_call_input_cost_saved": -0.000115,
+          "monthly_input_cost_saved": -11.5
+        },
+        {
+          "candidate": "codebook-json",
+          "total_tokens": 3352930,
+          "payload_tokens": 3352910,
+          "instruction_tokens": 20,
+          "token_delta": -307163,
+          "savings_ratio": -0.1008491457160052,
+          "per_call_input_cost_saved": -1.535815,
+          "monthly_input_cost_saved": -153581.5
+        },
+        {
+          "candidate": "column-json",
+          "total_tokens": 3363782,
+          "payload_tokens": 3363776,
+          "instruction_tokens": 6,
+          "token_delta": -318015,
+          "savings_ratio": -0.10441212344870766,
+          "per_call_input_cost_saved": -1.590075,
+          "monthly_input_cost_saved": -159007.5
+        },
+        {
+          "candidate": "compact-json",
+          "total_tokens": 3371995,
+          "payload_tokens": 3371991,
+          "instruction_tokens": 4,
+          "token_delta": -326228,
+          "savings_ratio": -0.10710865276299861,
+          "per_call_input_cost_saved": -1.63114,
+          "monthly_input_cost_saved": -163114.0
+        },
+        {
+          "candidate": "codebook-row",
+          "total_tokens": 3412827,
+          "payload_tokens": 3412809,
+          "instruction_tokens": 18,
+          "token_delta": -367060,
+          "savings_ratio": -0.12051479972039883,
+          "per_call_input_cost_saved": -1.8353,
+          "monthly_input_cost_saved": -183530.0
+        },
+        {
+          "candidate": "tsv",
+          "total_tokens": 3417288,
+          "payload_tokens": 3417283,
+          "instruction_tokens": 5,
+          "token_delta": -371521,
+          "savings_ratio": -0.12197945542124529,
+          "per_call_input_cost_saved": -1.857605,
+          "monthly_input_cost_saved": -185760.5
+        },
+        {
+          "candidate": "csv",
+          "total_tokens": 3417289,
+          "payload_tokens": 3417284,
+          "instruction_tokens": 5,
+          "token_delta": -371522,
+          "savings_ratio": -0.12197978374576912,
+          "per_call_input_cost_saved": -1.85761,
+          "monthly_input_cost_saved": -185761.0
+        }
+      ],
+      "external_baselines": [
+        {
+          "baseline": "toon",
+          "available": true,
+          "source_file": "/Users/saminkhan1/Documents/codex-context-compression/reports/generated-baselines/toon/hf-code-doc.tsv.txt",
+          "bytes": 11913805,
+          "total_tokens": 3363514,
+          "token_delta": -317747,
+          "savings_ratio": -0.10432413247631878,
+          "per_call_input_cost_saved": -1.588735,
+          "monthly_input_cost_saved": -158873.5
+        }
+      ],
+      "latency": {
+        "load_milliseconds": 82.87645899690688,
+        "candidate_generation_milliseconds": 1554.2337500010035,
+        "token_count_milliseconds": 10703.899503001594,
+        "total_milliseconds": 12890.30066599662,
+        "tokens_saved_per_millisecond": 0.20333117651118468,
+        "break_even": {
+          "max_provider_input_tokens_per_second_for_break_even": 203.33117651118468,
+          "projected_input_latency_saved_milliseconds": 1747.3333333333333,
+          "projected_net_latency_saved_milliseconds": -11142.967332663286,
+          "projected_break_even": false
+        }
+      }
+    },
+    {
+      "file": "data/benchmark-corpus/hf-loghub-2.csv",
+      "kind": "csv",
+      "bytes": 96769,
+      "raw_tokens": 37825,
+      "best": {
+        "candidate": "codebook-json",
+        "total_tokens": 23795,
+        "payload_tokens": 23775,
+        "instruction_tokens": 20,
+        "token_delta": 14030,
+        "savings_ratio": 0.3709187045604759,
+        "per_call_input_cost_saved": 0.07015,
+        "monthly_input_cost_saved": 7015.0
+      },
+      "candidates": [
+        {
+          "candidate": "codebook-json",
+          "total_tokens": 23795,
+          "payload_tokens": 23775,
+          "instruction_tokens": 20,
+          "token_delta": 14030,
+          "savings_ratio": 0.3709187045604759,
+          "per_call_input_cost_saved": 0.07015,
+          "monthly_input_cost_saved": 7015.0
+        },
+        {
+          "candidate": "raw",
+          "total_tokens": 37825,
+          "payload_tokens": 37825,
+          "instruction_tokens": 0,
+          "token_delta": 0,
+          "savings_ratio": 0.0,
+          "per_call_input_cost_saved": 0.0,
+          "monthly_input_cost_saved": 0.0
+        },
+        {
+          "candidate": "typed-tsv",
+          "total_tokens": 37842,
+          "payload_tokens": 37825,
+          "instruction_tokens": 17,
+          "token_delta": -17,
+          "savings_ratio": -0.00044943820224719103,
+          "per_call_input_cost_saved": -8.5e-05,
+          "monthly_input_cost_saved": -8.5
+        },
+        {
+          "candidate": "typed-csv",
+          "total_tokens": 37845,
+          "payload_tokens": 37828,
+          "instruction_tokens": 17,
+          "token_delta": -20,
+          "savings_ratio": -0.0005287508261731659,
+          "per_call_input_cost_saved": -0.0001,
+          "monthly_input_cost_saved": -10.0
+        },
+        {
+          "candidate": "typed-codebook-row",
+          "total_tokens": 37858,
+          "payload_tokens": 37831,
+          "instruction_tokens": 27,
+          "token_delta": -33,
+          "savings_ratio": -0.0008724388631857238,
+          "per_call_input_cost_saved": -0.000165,
+          "monthly_input_cost_saved": -16.5
+        },
+        {
+          "candidate": "csv",
+          "total_tokens": 39178,
+          "payload_tokens": 39173,
+          "instruction_tokens": 5,
+          "token_delta": -1353,
+          "savings_ratio": -0.03576999339061467,
+          "per_call_input_cost_saved": -0.006765,
+          "monthly_input_cost_saved": -676.5
+        },
+        {
+          "candidate": "column-json",
+          "total_tokens": 39183,
+          "payload_tokens": 39177,
+          "instruction_tokens": 6,
+          "token_delta": -1358,
+          "savings_ratio": -0.03590218109715797,
+          "per_call_input_cost_saved": -0.00679,
+          "monthly_input_cost_saved": -679.0
+        },
+        {
+          "candidate": "codebook-row",
+          "total_tokens": 39194,
+          "payload_tokens": 39176,
+          "instruction_tokens": 18,
+          "token_delta": -1369,
+          "savings_ratio": -0.036192994051553205,
+          "per_call_input_cost_saved": -0.006845,
+          "monthly_input_cost_saved": -684.5
+        },
+        {
+          "candidate": "compact-json",
+          "total_tokens": 40178,
+          "payload_tokens": 40174,
+          "instruction_tokens": 4,
+          "token_delta": -2353,
+          "savings_ratio": -0.06220753469927297,
+          "per_call_input_cost_saved": -0.011765,
+          "monthly_input_cost_saved": -1176.5
+        }
+      ],
+      "external_baselines": [
+        {
+          "baseline": "toon",
+          "available": true,
+          "source_file": "/Users/saminkhan1/Documents/codex-context-compression/reports/generated-baselines/toon/hf-loghub-2.csv.txt",
+          "bytes": 100893,
+          "total_tokens": 38932,
+          "token_delta": -1107,
+          "savings_ratio": -0.029266358228684734,
+          "per_call_input_cost_saved": -0.005535,
+          "monthly_input_cost_saved": -553.5
+        }
+      ],
+      "latency": {
+        "load_milliseconds": 0.9292079994338565,
+        "candidate_generation_milliseconds": 17.044000000169035,
+        "token_count_milliseconds": 97.46179201465566,
+        "total_milliseconds": 121.30945800163317,
+        "tokens_saved_per_millisecond": 115.65462603757669,
+        "break_even": {
+          "max_provider_input_tokens_per_second_for_break_even": 115654.62603757669,
+          "projected_input_latency_saved_milliseconds": 9353.333333333334,
+          "projected_net_latency_saved_milliseconds": 9232.0238753317,
+          "projected_break_even": true
+        }
+      }
+    },
+    {
+      "file": "data/benchmark-corpus/hf-loghub-2.json",
+      "kind": "json",
+      "bytes": 119784,
+      "raw_tokens": 45907,
+      "best": {
+        "candidate": "codebook-json",
+        "total_tokens": 23795,
+        "payload_tokens": 23775,
+        "instruction_tokens": 20,
+        "token_delta": 22112,
+        "savings_ratio": 0.48166946217352474,
+        "per_call_input_cost_saved": 0.11056,
+        "monthly_input_cost_saved": 11056.0
+      },
+      "candidates": [
+        {
+          "candidate": "codebook-json",
+          "total_tokens": 23795,
+          "payload_tokens": 23775,
+          "instruction_tokens": 20,
+          "token_delta": 22112,
+          "savings_ratio": 0.48166946217352474,
+          "per_call_input_cost_saved": 0.11056,
+          "monthly_input_cost_saved": 11056.0
+        },
+        {
+          "candidate": "typed-tsv",
+          "total_tokens": 37842,
+          "payload_tokens": 37825,
+          "instruction_tokens": 17,
+          "token_delta": 8065,
+          "savings_ratio": 0.17568126865183958,
+          "per_call_input_cost_saved": 0.040325,
+          "monthly_input_cost_saved": 4032.5
+        },
+        {
+          "candidate": "typed-csv",
+          "total_tokens": 37845,
+          "payload_tokens": 37828,
+          "instruction_tokens": 17,
+          "token_delta": 8062,
+          "savings_ratio": 0.17561591914087177,
+          "per_call_input_cost_saved": 0.04031,
+          "monthly_input_cost_saved": 4031.0
+        },
+        {
+          "candidate": "typed-codebook-row",
+          "total_tokens": 37858,
+          "payload_tokens": 37831,
+          "instruction_tokens": 27,
+          "token_delta": 8049,
+          "savings_ratio": 0.17533273792667786,
+          "per_call_input_cost_saved": 0.040245,
+          "monthly_input_cost_saved": 4024.5
+        },
+        {
+          "candidate": "csv",
+          "total_tokens": 39178,
+          "payload_tokens": 39173,
+          "instruction_tokens": 5,
+          "token_delta": 6729,
+          "savings_ratio": 0.1465789531008343,
+          "per_call_input_cost_saved": 0.033645,
+          "monthly_input_cost_saved": 3364.5
+        },
+        {
+          "candidate": "column-json",
+          "total_tokens": 39183,
+          "payload_tokens": 39177,
+          "instruction_tokens": 6,
+          "token_delta": 6724,
+          "savings_ratio": 0.14647003724922125,
+          "per_call_input_cost_saved": 0.03362,
+          "monthly_input_cost_saved": 3362.0
+        },
+        {
+          "candidate": "codebook-row",
+          "total_tokens": 39194,
+          "payload_tokens": 39176,
+          "instruction_tokens": 18,
+          "token_delta": 6713,
+          "savings_ratio": 0.14623042237567255,
+          "per_call_input_cost_saved": 0.033565,
+          "monthly_input_cost_saved": 3356.5
+        },
+        {
+          "candidate": "compact-json",
+          "total_tokens": 40178,
+          "payload_tokens": 40174,
+          "instruction_tokens": 4,
+          "token_delta": 5729,
+          "savings_ratio": 0.12479578277822555,
+          "per_call_input_cost_saved": 0.028645,
+          "monthly_input_cost_saved": 2864.5
+        },
+        {
+          "candidate": "raw",
+          "total_tokens": 45907,
+          "payload_tokens": 45907,
+          "instruction_tokens": 0,
+          "token_delta": 0,
+          "savings_ratio": 0.0,
+          "per_call_input_cost_saved": 0.0,
+          "monthly_input_cost_saved": 0.0
+        }
+      ],
+      "external_baselines": [
+        {
+          "baseline": "toon",
+          "available": true,
+          "source_file": "/Users/saminkhan1/Documents/codex-context-compression/reports/generated-baselines/toon/hf-loghub-2.json.txt",
+          "bytes": 100893,
+          "total_tokens": 38932,
+          "token_delta": 6975,
+          "savings_ratio": 0.15193761300019604,
+          "per_call_input_cost_saved": 0.034875,
+          "monthly_input_cost_saved": 3487.5
+        }
+      ],
+      "latency": {
+        "load_milliseconds": 0.21587499941233546,
+        "candidate_generation_milliseconds": 16.456290999485645,
+        "token_count_milliseconds": 101.44416599359829,
+        "total_milliseconds": 123.77437500254018,
+        "tokens_saved_per_millisecond": 178.64764010762488,
+        "break_even": {
+          "max_provider_input_tokens_per_second_for_break_even": 178647.64010762487,
+          "projected_input_latency_saved_milliseconds": 14741.333333333334,
+          "projected_net_latency_saved_milliseconds": 14617.558958330794,
+          "projected_break_even": true
+        }
+      }
+    },
+    {
+      "file": "data/benchmark-corpus/hf-loghub-2.jsonl",
+      "kind": "jsonl",
+      "bytes": 107782,
+      "raw_tokens": 41171,
+      "best": {
+        "candidate": "codebook-json",
+        "total_tokens": 23795,
+        "payload_tokens": 23775,
+        "instruction_tokens": 20,
+        "token_delta": 17376,
+        "savings_ratio": 0.4220446430740084,
+        "per_call_input_cost_saved": 0.08688,
+        "monthly_input_cost_saved": 8688.0
+      },
+      "candidates": [
+        {
+          "candidate": "codebook-json",
+          "total_tokens": 23795,
+          "payload_tokens": 23775,
+          "instruction_tokens": 20,
+          "token_delta": 17376,
+          "savings_ratio": 0.4220446430740084,
+          "per_call_input_cost_saved": 0.08688,
+          "monthly_input_cost_saved": 8688.0
+        },
+        {
+          "candidate": "typed-tsv",
+          "total_tokens": 37842,
+          "payload_tokens": 37825,
+          "instruction_tokens": 17,
+          "token_delta": 3329,
+          "savings_ratio": 0.0808578854047752,
+          "per_call_input_cost_saved": 0.016645,
+          "monthly_input_cost_saved": 1664.5
+        },
+        {
+          "candidate": "typed-csv",
+          "total_tokens": 37845,
+          "payload_tokens": 37828,
+          "instruction_tokens": 17,
+          "token_delta": 3326,
+          "savings_ratio": 0.08078501858104005,
+          "per_call_input_cost_saved": 0.01663,
+          "monthly_input_cost_saved": 1663.0
+        },
+        {
+          "candidate": "typed-codebook-row",
+          "total_tokens": 37858,
+          "payload_tokens": 37831,
+          "instruction_tokens": 27,
+          "token_delta": 3313,
+          "savings_ratio": 0.08046926234485438,
+          "per_call_input_cost_saved": 0.016565,
+          "monthly_input_cost_saved": 1656.5
+        },
+        {
+          "candidate": "csv",
+          "total_tokens": 39178,
+          "payload_tokens": 39173,
+          "instruction_tokens": 5,
+          "token_delta": 1993,
+          "savings_ratio": 0.0484078599013869,
+          "per_call_input_cost_saved": 0.009965,
+          "monthly_input_cost_saved": 996.5
+        },
+        {
+          "candidate": "column-json",
+          "total_tokens": 39183,
+          "payload_tokens": 39177,
+          "instruction_tokens": 6,
+          "token_delta": 1988,
+          "savings_ratio": 0.04828641519516164,
+          "per_call_input_cost_saved": 0.00994,
+          "monthly_input_cost_saved": 994.0
+        },
+        {
+          "candidate": "codebook-row",
+          "total_tokens": 39194,
+          "payload_tokens": 39176,
+          "instruction_tokens": 18,
+          "token_delta": 1977,
+          "savings_ratio": 0.04801923684146608,
+          "per_call_input_cost_saved": 0.009885,
+          "monthly_input_cost_saved": 988.5
+        },
+        {
+          "candidate": "compact-json",
+          "total_tokens": 40178,
+          "payload_tokens": 40174,
+          "instruction_tokens": 4,
+          "token_delta": 993,
+          "savings_ratio": 0.02411891865633577,
+          "per_call_input_cost_saved": 0.004965,
+          "monthly_input_cost_saved": 496.5
+        },
+        {
+          "candidate": "raw",
+          "total_tokens": 41171,
+          "payload_tokens": 41171,
+          "instruction_tokens": 0,
+          "token_delta": 0,
+          "savings_ratio": 0.0,
+          "per_call_input_cost_saved": 0.0,
+          "monthly_input_cost_saved": 0.0
+        }
+      ],
+      "external_baselines": [
+        {
+          "baseline": "toon",
+          "available": true,
+          "source_file": "/Users/saminkhan1/Documents/codex-context-compression/reports/generated-baselines/toon/hf-loghub-2.jsonl.txt",
+          "bytes": 100893,
+          "total_tokens": 38932,
+          "token_delta": 2239,
+          "savings_ratio": 0.054382939447669476,
+          "per_call_input_cost_saved": 0.011195,
+          "monthly_input_cost_saved": 1119.5
+        }
+      ],
+      "latency": {
+        "load_milliseconds": 0.6322499975794926,
+        "candidate_generation_milliseconds": 16.72083300218219,
+        "token_count_milliseconds": 98.08324900222942,
+        "total_milliseconds": 121.19637500290992,
+        "tokens_saved_per_millisecond": 143.37062473677784,
+        "break_even": {
+          "max_provider_input_tokens_per_second_for_break_even": 143370.62473677783,
+          "projected_input_latency_saved_milliseconds": 11584.0,
+          "projected_net_latency_saved_milliseconds": 11462.80362499709,
+          "projected_break_even": true
+        }
+      }
+    },
+    {
+      "file": "data/benchmark-corpus/hf-loghub-2.tsv",
+      "kind": "tsv",
+      "bytes": 96743,
+      "raw_tokens": 37822,
+      "best": {
+        "candidate": "codebook-json",
+        "total_tokens": 23795,
+        "payload_tokens": 23775,
+        "instruction_tokens": 20,
+        "token_delta": 14027,
+        "savings_ratio": 0.37086880651472687,
+        "per_call_input_cost_saved": 0.070135,
+        "monthly_input_cost_saved": 7013.5
+      },
+      "candidates": [
+        {
+          "candidate": "codebook-json",
+          "total_tokens": 23795,
+          "payload_tokens": 23775,
+          "instruction_tokens": 20,
+          "token_delta": 14027,
+          "savings_ratio": 0.37086880651472687,
+          "per_call_input_cost_saved": 0.070135,
+          "monthly_input_cost_saved": 7013.5
+        },
+        {
+          "candidate": "raw",
+          "total_tokens": 37822,
+          "payload_tokens": 37822,
+          "instruction_tokens": 0,
+          "token_delta": 0,
+          "savings_ratio": 0.0,
+          "per_call_input_cost_saved": 0.0,
+          "monthly_input_cost_saved": 0.0
+        },
+        {
+          "candidate": "typed-tsv",
+          "total_tokens": 37842,
+          "payload_tokens": 37825,
+          "instruction_tokens": 17,
+          "token_delta": -20,
+          "savings_ratio": -0.0005287927661149596,
+          "per_call_input_cost_saved": -0.0001,
+          "monthly_input_cost_saved": -10.0
+        },
+        {
+          "candidate": "typed-csv",
+          "total_tokens": 37845,
+          "payload_tokens": 37828,
+          "instruction_tokens": 17,
+          "token_delta": -23,
+          "savings_ratio": -0.0006081116810322034,
+          "per_call_input_cost_saved": -0.000115,
+          "monthly_input_cost_saved": -11.5
+        },
+        {
+          "candidate": "typed-codebook-row",
+          "total_tokens": 37858,
+          "payload_tokens": 37831,
+          "instruction_tokens": 27,
+          "token_delta": -36,
+          "savings_ratio": -0.0009518269790069272,
+          "per_call_input_cost_saved": -0.00018,
+          "monthly_input_cost_saved": -18.0
+        },
+        {
+          "candidate": "csv",
+          "total_tokens": 39178,
+          "payload_tokens": 39173,
+          "instruction_tokens": 5,
+          "token_delta": -1356,
+          "savings_ratio": -0.035852149542594254,
+          "per_call_input_cost_saved": -0.00678,
+          "monthly_input_cost_saved": -678.0
+        },
+        {
+          "candidate": "column-json",
+          "total_tokens": 39183,
+          "payload_tokens": 39177,
+          "instruction_tokens": 6,
+          "token_delta": -1361,
+          "savings_ratio": -0.035984347734123,
+          "per_call_input_cost_saved": -0.006805,
+          "monthly_input_cost_saved": -680.5
+        },
+        {
+          "candidate": "codebook-row",
+          "total_tokens": 39194,
+          "payload_tokens": 39176,
+          "instruction_tokens": 18,
+          "token_delta": -1372,
+          "savings_ratio": -0.036275183755486225,
+          "per_call_input_cost_saved": -0.00686,
+          "monthly_input_cost_saved": -686.0
+        },
+        {
+          "candidate": "compact-json",
+          "total_tokens": 40178,
+          "payload_tokens": 40174,
+          "instruction_tokens": 4,
+          "token_delta": -2356,
+          "savings_ratio": -0.06229178784834224,
+          "per_call_input_cost_saved": -0.01178,
+          "monthly_input_cost_saved": -1178.0
+        }
+      ],
+      "external_baselines": [
+        {
+          "baseline": "toon",
+          "available": true,
+          "source_file": "/Users/saminkhan1/Documents/codex-context-compression/reports/generated-baselines/toon/hf-loghub-2.tsv.txt",
+          "bytes": 100893,
+          "total_tokens": 38932,
+          "token_delta": -1110,
+          "savings_ratio": -0.029347998519380254,
+          "per_call_input_cost_saved": -0.00555,
+          "monthly_input_cost_saved": -555.0
+        }
+      ],
+      "latency": {
+        "load_milliseconds": 0.8905419963411987,
+        "candidate_generation_milliseconds": 16.9048340030713,
+        "token_count_milliseconds": 96.08437598944874,
+        "total_milliseconds": 119.47774999862304,
+        "tokens_saved_per_millisecond": 117.40261262169449,
+        "break_even": {
+          "max_provider_input_tokens_per_second_for_break_even": 117402.61262169448,
+          "projected_input_latency_saved_milliseconds": 9351.333333333334,
+          "projected_net_latency_saved_milliseconds": 9231.85558333471,
+          "projected_break_even": true
+        }
+      }
+    },
+    {
+      "file": "data/benchmark-corpus/hf-openassistant.csv",
+      "kind": "csv",
+      "bytes": 1362436,
+      "raw_tokens": 510074,
+      "best": {
+        "candidate": "codebook-json",
+        "total_tokens": 443022,
+        "payload_tokens": 443002,
+        "instruction_tokens": 20,
+        "token_delta": 67052,
+        "savings_ratio": 0.13145543587793143,
+        "per_call_input_cost_saved": 0.33526,
+        "monthly_input_cost_saved": 33526.0
+      },
+      "candidates": [
+        {
+          "candidate": "codebook-json",
+          "total_tokens": 443022,
+          "payload_tokens": 443002,
+          "instruction_tokens": 20,
+          "token_delta": 67052,
+          "savings_ratio": 0.13145543587793143,
+          "per_call_input_cost_saved": 0.33526,
+          "monthly_input_cost_saved": 33526.0
+        },
+        {
+          "candidate": "column-json",
+          "total_tokens": 486568,
+          "payload_tokens": 486562,
+          "instruction_tokens": 6,
+          "token_delta": 23506,
+          "savings_ratio": 0.04608350945156977,
+          "per_call_input_cost_saved": 0.11753,
+          "monthly_input_cost_saved": 11753.0
+        },
+        {
+          "candidate": "typed-codebook-row",
+          "total_tokens": 507468,
+          "payload_tokens": 507441,
+          "instruction_tokens": 27,
+          "token_delta": 2606,
+          "savings_ratio": 0.005109062606602179,
+          "per_call_input_cost_saved": 0.01303,
+          "monthly_input_cost_saved": 1303.0
+        },
+        {
+          "candidate": "raw",
+          "total_tokens": 510074,
+          "payload_tokens": 510074,
+          "instruction_tokens": 0,
+          "token_delta": 0,
+          "savings_ratio": 0.0,
+          "per_call_input_cost_saved": 0.0,
+          "monthly_input_cost_saved": 0.0
+        },
+        {
+          "candidate": "typed-csv",
+          "total_tokens": 510111,
+          "payload_tokens": 510094,
+          "instruction_tokens": 17,
+          "token_delta": -37,
+          "savings_ratio": -7.253849441453593e-05,
+          "per_call_input_cost_saved": -0.000185,
+          "monthly_input_cost_saved": -18.5
+        },
+        {
+          "candidate": "typed-tsv",
+          "total_tokens": 512015,
+          "payload_tokens": 511998,
+          "instruction_tokens": 17,
+          "token_delta": -1941,
+          "savings_ratio": -0.003805330206989574,
+          "per_call_input_cost_saved": -0.009705,
+          "monthly_input_cost_saved": -970.5
+        },
+        {
+          "candidate": "codebook-row",
+          "total_tokens": 531902,
+          "payload_tokens": 531884,
+          "instruction_tokens": 18,
+          "token_delta": -21828,
+          "savings_ratio": -0.04279379070487811,
+          "per_call_input_cost_saved": -0.10914,
+          "monthly_input_cost_saved": -10914.0
+        },
+        {
+          "candidate": "compact-json",
+          "total_tokens": 535375,
+          "payload_tokens": 535371,
+          "instruction_tokens": 4,
+          "token_delta": -25301,
+          "savings_ratio": -0.049602606680599286,
+          "per_call_input_cost_saved": -0.126505,
+          "monthly_input_cost_saved": -12650.5
+        },
+        {
+          "candidate": "csv",
+          "total_tokens": 546456,
+          "payload_tokens": 546451,
+          "instruction_tokens": 5,
+          "token_delta": -36382,
+          "savings_ratio": -0.07132690550782828,
+          "per_call_input_cost_saved": -0.18191,
+          "monthly_input_cost_saved": -18191.0
+        },
+        {
+          "candidate": "tsv",
+          "total_tokens": 548235,
+          "payload_tokens": 548230,
+          "instruction_tokens": 5,
+          "token_delta": -38161,
+          "savings_ratio": -0.07481463473927312,
+          "per_call_input_cost_saved": -0.190805,
+          "monthly_input_cost_saved": -19080.5
+        }
+      ],
+      "external_baselines": [
+        {
+          "baseline": "toon",
+          "available": true,
+          "source_file": "/Users/saminkhan1/Documents/codex-context-compression/reports/generated-baselines/toon/hf-openassistant.csv.txt",
+          "bytes": 1377289,
+          "total_tokens": 485805,
+          "token_delta": 24269,
+          "savings_ratio": 0.04757937083638845,
+          "per_call_input_cost_saved": 0.121345,
+          "monthly_input_cost_saved": 12134.5
+        }
+      ],
+      "latency": {
+        "load_milliseconds": 10.815999994520098,
+        "candidate_generation_milliseconds": 270.96037499723025,
+        "token_count_milliseconds": 1596.2204160023248,
+        "total_milliseconds": 1953.5629579986562,
+        "tokens_saved_per_millisecond": 34.322927615648474,
+        "break_even": {
+          "max_provider_input_tokens_per_second_for_break_even": 34322.92761564848,
+          "projected_input_latency_saved_milliseconds": 44701.333333333336,
+          "projected_net_latency_saved_milliseconds": 42747.77037533468,
+          "projected_break_even": true
+        }
+      }
+    },
+    {
+      "file": "data/benchmark-corpus/hf-openassistant.json",
+      "kind": "json",
+      "bytes": 2147942,
+      "raw_tokens": 700537,
+      "best": {
+        "candidate": "codebook-json",
+        "total_tokens": 434584,
+        "payload_tokens": 434564,
+        "instruction_tokens": 20,
+        "token_delta": 265953,
+        "savings_ratio": 0.37964161778749733,
+        "per_call_input_cost_saved": 1.329765,
+        "monthly_input_cost_saved": 132976.5
+      },
+      "candidates": [
+        {
+          "candidate": "codebook-json",
+          "total_tokens": 434584,
+          "payload_tokens": 434564,
+          "instruction_tokens": 20,
+          "token_delta": 265953,
+          "savings_ratio": 0.37964161778749733,
+          "per_call_input_cost_saved": 1.329765,
+          "monthly_input_cost_saved": 132976.5
+        },
+        {
+          "candidate": "column-json",
+          "total_tokens": 474173,
+          "payload_tokens": 474167,
+          "instruction_tokens": 6,
+          "token_delta": 226364,
+          "savings_ratio": 0.323129256556042,
+          "per_call_input_cost_saved": 1.13182,
+          "monthly_input_cost_saved": 113182.0
+        },
+        {
+          "candidate": "compact-json",
+          "total_tokens": 525807,
+          "payload_tokens": 525803,
+          "instruction_tokens": 4,
+          "token_delta": 174730,
+          "savings_ratio": 0.24942294268539705,
+          "per_call_input_cost_saved": 0.87365,
+          "monthly_input_cost_saved": 87365.0
+        },
+        {
+          "candidate": "codebook-row",
+          "total_tokens": 526875,
+          "payload_tokens": 526857,
+          "instruction_tokens": 18,
+          "token_delta": 173662,
+          "savings_ratio": 0.24789839794329208,
+          "per_call_input_cost_saved": 0.86831,
+          "monthly_input_cost_saved": 86831.0
+        },
+        {
+          "candidate": "tsv",
+          "total_tokens": 531314,
+          "payload_tokens": 531309,
+          "instruction_tokens": 5,
+          "token_delta": 169223,
+          "savings_ratio": 0.24156183042437446,
+          "per_call_input_cost_saved": 0.846115,
+          "monthly_input_cost_saved": 84611.5
+        },
+        {
+          "candidate": "csv",
+          "total_tokens": 531554,
+          "payload_tokens": 531549,
+          "instruction_tokens": 5,
+          "token_delta": 168983,
+          "savings_ratio": 0.2412192361003059,
+          "per_call_input_cost_saved": 0.844915,
+          "monthly_input_cost_saved": 84491.5
+        },
+        {
+          "candidate": "raw",
+          "total_tokens": 700537,
+          "payload_tokens": 700537,
+          "instruction_tokens": 0,
+          "token_delta": 0,
+          "savings_ratio": 0.0,
+          "per_call_input_cost_saved": 0.0,
+          "monthly_input_cost_saved": 0.0
+        }
+      ],
+      "external_baselines": [
+        {
+          "baseline": "toon",
+          "available": true,
+          "source_file": "/Users/saminkhan1/Documents/codex-context-compression/reports/generated-baselines/toon/hf-openassistant.json.txt",
+          "bytes": 2148006,
+          "total_tokens": 700550,
+          "token_delta": -13,
+          "savings_ratio": -1.8557192553712367e-05,
+          "per_call_input_cost_saved": -6.5e-05,
+          "monthly_input_cost_saved": -6.5
+        }
+      ],
+      "latency": {
+        "load_milliseconds": 13.616749994980637,
+        "candidate_generation_milliseconds": 275.9870840018266,
+        "token_count_milliseconds": 1263.3286670024972,
+        "total_milliseconds": 1684.929374998319,
+        "tokens_saved_per_millisecond": 157.84222409931297,
+        "break_even": {
+          "max_provider_input_tokens_per_second_for_break_even": 157842.22409931297,
+          "projected_input_latency_saved_milliseconds": 177302.0,
+          "projected_net_latency_saved_milliseconds": 175617.07062500168,
+          "projected_break_even": true
+        }
+      }
+    },
+    {
+      "file": "data/benchmark-corpus/hf-openassistant.jsonl",
+      "kind": "jsonl",
+      "bytes": 1540917,
+      "raw_tokens": 526800,
+      "best": {
+        "candidate": "codebook-json",
+        "total_tokens": 434584,
+        "payload_tokens": 434564,
+        "instruction_tokens": 20,
+        "token_delta": 92216,
+        "savings_ratio": 0.17504935459377371,
+        "per_call_input_cost_saved": 0.46108,
+        "monthly_input_cost_saved": 46108.0
+      },
+      "candidates": [
+        {
+          "candidate": "codebook-json",
+          "total_tokens": 434584,
+          "payload_tokens": 434564,
+          "instruction_tokens": 20,
+          "token_delta": 92216,
+          "savings_ratio": 0.17504935459377371,
+          "per_call_input_cost_saved": 0.46108,
+          "monthly_input_cost_saved": 46108.0
+        },
+        {
+          "candidate": "column-json",
+          "total_tokens": 474173,
+          "payload_tokens": 474167,
+          "instruction_tokens": 6,
+          "token_delta": 52627,
+          "savings_ratio": 0.09989939255884586,
+          "per_call_input_cost_saved": 0.263135,
+          "monthly_input_cost_saved": 26313.5
+        },
+        {
+          "candidate": "compact-json",
+          "total_tokens": 525807,
+          "payload_tokens": 525803,
+          "instruction_tokens": 4,
+          "token_delta": 993,
+          "savings_ratio": 0.0018849658314350798,
+          "per_call_input_cost_saved": 0.004965,
+          "monthly_input_cost_saved": 496.5
+        },
+        {
+          "candidate": "raw",
+          "total_tokens": 526800,
+          "payload_tokens": 526800,
+          "instruction_tokens": 0,
+          "token_delta": 0,
+          "savings_ratio": 0.0,
+          "per_call_input_cost_saved": 0.0,
+          "monthly_input_cost_saved": 0.0
+        },
+        {
+          "candidate": "codebook-row",
+          "total_tokens": 526875,
+          "payload_tokens": 526857,
+          "instruction_tokens": 18,
+          "token_delta": -75,
+          "savings_ratio": -0.00014236902050113895,
+          "per_call_input_cost_saved": -0.000375,
+          "monthly_input_cost_saved": -37.5
+        },
+        {
+          "candidate": "tsv",
+          "total_tokens": 531314,
+          "payload_tokens": 531309,
+          "instruction_tokens": 5,
+          "token_delta": -4514,
+          "savings_ratio": -0.008568716780561883,
+          "per_call_input_cost_saved": -0.02257,
+          "monthly_input_cost_saved": -2257.0
+        },
+        {
+          "candidate": "csv",
+          "total_tokens": 531554,
+          "payload_tokens": 531549,
+          "instruction_tokens": 5,
+          "token_delta": -4754,
+          "savings_ratio": -0.009024297646165528,
+          "per_call_input_cost_saved": -0.02377,
+          "monthly_input_cost_saved": -2377.0
+        }
+      ],
+      "external_baselines": [
+        {
+          "baseline": "toon",
+          "available": true,
+          "source_file": "/Users/saminkhan1/Documents/codex-context-compression/reports/generated-baselines/toon/hf-openassistant.jsonl.txt",
+          "bytes": 1540981,
+          "total_tokens": 526813,
+          "token_delta": -13,
+          "savings_ratio": -2.4677296886864086e-05,
+          "per_call_input_cost_saved": -6.5e-05,
+          "monthly_input_cost_saved": -6.5
+        }
+      ],
+      "latency": {
+        "load_milliseconds": 10.661499996786006,
+        "candidate_generation_milliseconds": 275.994499999797,
+        "token_count_milliseconds": 1129.88779200532,
+        "total_milliseconds": 1500.6157499956316,
+        "tokens_saved_per_millisecond": 61.45210724348885,
+        "break_even": {
+          "max_provider_input_tokens_per_second_for_break_even": 61452.10724348885,
+          "projected_input_latency_saved_milliseconds": 61477.333333333336,
+          "projected_net_latency_saved_milliseconds": 59976.717583337704,
+          "projected_break_even": true
+        }
+      }
+    },
+    {
+      "file": "data/benchmark-corpus/hf-openassistant.tsv",
+      "kind": "tsv",
+      "bytes": 1361960,
+      "raw_tokens": 511978,
+      "best": {
+        "candidate": "codebook-json",
+        "total_tokens": 443022,
+        "payload_tokens": 443002,
+        "instruction_tokens": 20,
+        "token_delta": 68956,
+        "savings_ratio": 0.13468547476649387,
+        "per_call_input_cost_saved": 0.34478,
+        "monthly_input_cost_saved": 34478.0
+      },
+      "candidates": [
+        {
+          "candidate": "codebook-json",
+          "total_tokens": 443022,
+          "payload_tokens": 443002,
+          "instruction_tokens": 20,
+          "token_delta": 68956,
+          "savings_ratio": 0.13468547476649387,
+          "per_call_input_cost_saved": 0.34478,
+          "monthly_input_cost_saved": 34478.0
+        },
+        {
+          "candidate": "column-json",
+          "total_tokens": 486568,
+          "payload_tokens": 486562,
+          "instruction_tokens": 6,
+          "token_delta": 25410,
+          "savings_ratio": 0.04963103883369988,
+          "per_call_input_cost_saved": 0.12705,
+          "monthly_input_cost_saved": 12705.0
+        },
+        {
+          "candidate": "typed-codebook-row",
+          "total_tokens": 507468,
+          "payload_tokens": 507441,
+          "instruction_tokens": 27,
+          "token_delta": 4510,
+          "savings_ratio": 0.008808972260526819,
+          "per_call_input_cost_saved": 0.02255,
+          "monthly_input_cost_saved": 2255.0
+        },
+        {
+          "candidate": "typed-csv",
+          "total_tokens": 510111,
+          "payload_tokens": 510094,
+          "instruction_tokens": 17,
+          "token_delta": 1867,
+          "savings_ratio": 0.0036466410666083308,
+          "per_call_input_cost_saved": 0.009335,
+          "monthly_input_cost_saved": 933.5
+        },
+        {
+          "candidate": "raw",
+          "total_tokens": 511978,
+          "payload_tokens": 511978,
+          "instruction_tokens": 0,
+          "token_delta": 0,
+          "savings_ratio": 0.0,
+          "per_call_input_cost_saved": 0.0,
+          "monthly_input_cost_saved": 0.0
+        },
+        {
+          "candidate": "typed-tsv",
+          "total_tokens": 512015,
+          "payload_tokens": 511998,
+          "instruction_tokens": 17,
+          "token_delta": -37,
+          "savings_ratio": -7.226873029700495e-05,
+          "per_call_input_cost_saved": -0.000185,
+          "monthly_input_cost_saved": -18.5
+        },
+        {
+          "candidate": "codebook-row",
+          "total_tokens": 531902,
+          "payload_tokens": 531884,
+          "instruction_tokens": 18,
+          "token_delta": -19924,
+          "savings_ratio": -0.03891573466047369,
+          "per_call_input_cost_saved": -0.09962,
+          "monthly_input_cost_saved": -9962.0
+        },
+        {
+          "candidate": "compact-json",
+          "total_tokens": 535375,
+          "payload_tokens": 535371,
+          "instruction_tokens": 4,
+          "token_delta": -23397,
+          "savings_ratio": -0.04569922926375743,
+          "per_call_input_cost_saved": -0.116985,
+          "monthly_input_cost_saved": -11698.5
+        },
+        {
+          "candidate": "csv",
+          "total_tokens": 546456,
+          "payload_tokens": 546451,
+          "instruction_tokens": 5,
+          "token_delta": -34478,
+          "savings_ratio": -0.06734273738324693,
+          "per_call_input_cost_saved": -0.17239,
+          "monthly_input_cost_saved": -17239.0
+        },
+        {
+          "candidate": "tsv",
+          "total_tokens": 548235,
+          "payload_tokens": 548230,
+          "instruction_tokens": 5,
+          "token_delta": -36257,
+          "savings_ratio": -0.07081749606428402,
+          "per_call_input_cost_saved": -0.181285,
+          "monthly_input_cost_saved": -18128.5
+        }
+      ],
+      "external_baselines": [
+        {
+          "baseline": "toon",
+          "available": true,
+          "source_file": "/Users/saminkhan1/Documents/codex-context-compression/reports/generated-baselines/toon/hf-openassistant.tsv.txt",
+          "bytes": 1377289,
+          "total_tokens": 485805,
+          "token_delta": 26173,
+          "savings_ratio": 0.05112133724495974,
+          "per_call_input_cost_saved": 0.130865,
+          "monthly_input_cost_saved": 13086.5
+        }
+      ],
+      "latency": {
+        "load_milliseconds": 10.343834001105279,
+        "candidate_generation_milliseconds": 268.82554199983133,
+        "token_count_milliseconds": 1596.4400839948212,
+        "total_milliseconds": 1952.0964170005755,
+        "tokens_saved_per_millisecond": 35.32407487635877,
+        "break_even": {
+          "max_provider_input_tokens_per_second_for_break_even": 35324.07487635877,
+          "projected_input_latency_saved_milliseconds": 45970.666666666664,
+          "projected_net_latency_saved_milliseconds": 44018.57024966609,
+          "projected_break_even": true
+        }
+      }
+    },
+    {
+      "file": "data/benchmark-corpus/hf-squad.csv",
+      "kind": "csv",
+      "bytes": 1041306,
+      "raw_tokens": 240559,
+      "best": {
+        "candidate": "codebook-json",
+        "total_tokens": 70875,
+        "payload_tokens": 70855,
+        "instruction_tokens": 20,
+        "token_delta": 169684,
+        "savings_ratio": 0.7053737336786402,
+        "per_call_input_cost_saved": 0.84842,
+        "monthly_input_cost_saved": 84842.0
+      },
+      "candidates": [
+        {
+          "candidate": "codebook-json",
+          "total_tokens": 70875,
+          "payload_tokens": 70855,
+          "instruction_tokens": 20,
+          "token_delta": 169684,
+          "savings_ratio": 0.7053737336786402,
+          "per_call_input_cost_saved": 0.84842,
+          "monthly_input_cost_saved": 84842.0
+        },
+        {
+          "candidate": "typed-codebook-row",
+          "total_tokens": 238537,
+          "payload_tokens": 238510,
+          "instruction_tokens": 27,
+          "token_delta": 2022,
+          "savings_ratio": 0.00840542237039562,
+          "per_call_input_cost_saved": 0.01011,
+          "monthly_input_cost_saved": 1011.0
+        },
+        {
+          "candidate": "raw",
+          "total_tokens": 240559,
+          "payload_tokens": 240559,
+          "instruction_tokens": 0,
+          "token_delta": 0,
+          "savings_ratio": 0.0,
+          "per_call_input_cost_saved": 0.0,
+          "monthly_input_cost_saved": 0.0
+        },
+        {
+          "candidate": "typed-csv",
+          "total_tokens": 240583,
+          "payload_tokens": 240566,
+          "instruction_tokens": 17,
+          "token_delta": -24,
+          "savings_ratio": -9.976762457442872e-05,
+          "per_call_input_cost_saved": -0.00012,
+          "monthly_input_cost_saved": -12.0
+        },
+        {
+          "candidate": "typed-tsv",
+          "total_tokens": 241290,
+          "payload_tokens": 241273,
+          "instruction_tokens": 17,
+          "token_delta": -731,
+          "savings_ratio": -0.0030387555651628082,
+          "per_call_input_cost_saved": -0.003655,
+          "monthly_input_cost_saved": -365.5
+        },
+        {
+          "candidate": "column-json",
+          "total_tokens": 242217,
+          "payload_tokens": 242211,
+          "instruction_tokens": 6,
+          "token_delta": -1658,
+          "savings_ratio": -0.006892280064350118,
+          "per_call_input_cost_saved": -0.00829,
+          "monthly_input_cost_saved": -829.0
+        },
+        {
+          "candidate": "codebook-row",
+          "total_tokens": 246609,
+          "payload_tokens": 246591,
+          "instruction_tokens": 18,
+          "token_delta": -6050,
+          "savings_ratio": -0.025149755361470575,
+          "per_call_input_cost_saved": -0.03025,
+          "monthly_input_cost_saved": -3025.0
+        },
+        {
+          "candidate": "compact-json",
+          "total_tokens": 251204,
+          "payload_tokens": 251200,
+          "instruction_tokens": 4,
+          "token_delta": -10645,
+          "savings_ratio": -0.04425109848311641,
+          "per_call_input_cost_saved": -0.053225,
+          "monthly_input_cost_saved": -5322.5
+        },
+        {
+          "candidate": "tsv",
+          "total_tokens": 251381,
+          "payload_tokens": 251376,
+          "instruction_tokens": 5,
+          "token_delta": -10822,
+          "savings_ratio": -0.04498688471435282,
+          "per_call_input_cost_saved": -0.05411,
+          "monthly_input_cost_saved": -5411.0
+        },
+        {
+          "candidate": "csv",
+          "total_tokens": 251382,
+          "payload_tokens": 251377,
+          "instruction_tokens": 5,
+          "token_delta": -10823,
+          "savings_ratio": -0.044991041698710085,
+          "per_call_input_cost_saved": -0.054115,
+          "monthly_input_cost_saved": -5411.5
+        }
+      ],
+      "external_baselines": [
+        {
+          "baseline": "toon",
+          "available": true,
+          "source_file": "/Users/saminkhan1/Documents/codex-context-compression/reports/generated-baselines/toon/hf-squad.csv.txt",
+          "bytes": 1043428,
+          "total_tokens": 241499,
+          "token_delta": -940,
+          "savings_ratio": -0.003907565295831791,
+          "per_call_input_cost_saved": -0.0047,
+          "monthly_input_cost_saved": -470.0
+        }
+      ],
+      "latency": {
+        "load_milliseconds": 5.503291002241895,
+        "candidate_generation_milliseconds": 138.81441700505093,
+        "token_count_milliseconds": 654.107373993611,
+        "total_milliseconds": 832.3040000032051,
+        "tokens_saved_per_millisecond": 203.87262346371824,
+        "break_even": {
+          "max_provider_input_tokens_per_second_for_break_even": 203872.62346371825,
+          "projected_input_latency_saved_milliseconds": 113122.66666666667,
+          "projected_net_latency_saved_milliseconds": 112290.36266666347,
+          "projected_break_even": true
+        }
+      }
+    },
+    {
+      "file": "data/benchmark-corpus/hf-squad.json",
+      "kind": "json",
+      "bytes": 1174016,
+      "raw_tokens": 278193,
+      "best": {
+        "candidate": "codebook-json",
+        "total_tokens": 66794,
+        "payload_tokens": 66774,
+        "instruction_tokens": 20,
+        "token_delta": 211399,
+        "savings_ratio": 0.7599005007315065,
+        "per_call_input_cost_saved": 1.056995,
+        "monthly_input_cost_saved": 105699.5
+      },
+      "candidates": [
+        {
+          "candidate": "codebook-json",
+          "total_tokens": 66794,
+          "payload_tokens": 66774,
+          "instruction_tokens": 20,
+          "token_delta": 211399,
+          "savings_ratio": 0.7599005007315065,
+          "per_call_input_cost_saved": 1.056995,
+          "monthly_input_cost_saved": 105699.5
+        },
+        {
+          "candidate": "column-json",
+          "total_tokens": 237220,
+          "payload_tokens": 237214,
+          "instruction_tokens": 6,
+          "token_delta": 40973,
+          "savings_ratio": 0.1472826419068776,
+          "per_call_input_cost_saved": 0.204865,
+          "monthly_input_cost_saved": 20486.5
+        },
+        {
+          "candidate": "codebook-row",
+          "total_tokens": 244596,
+          "payload_tokens": 244578,
+          "instruction_tokens": 18,
+          "token_delta": 33597,
+          "savings_ratio": 0.12076867498463296,
+          "per_call_input_cost_saved": 0.167985,
+          "monthly_input_cost_saved": 16798.5
+        },
+        {
+          "candidate": "compact-json",
+          "total_tokens": 246198,
+          "payload_tokens": 246194,
+          "instruction_tokens": 4,
+          "token_delta": 31995,
+          "savings_ratio": 0.11501008292803917,
+          "per_call_input_cost_saved": 0.159975,
+          "monthly_input_cost_saved": 15997.5
+        },
+        {
+          "candidate": "tsv",
+          "total_tokens": 249368,
+          "payload_tokens": 249363,
+          "instruction_tokens": 5,
+          "token_delta": 28825,
+          "savings_ratio": 0.10361511612441722,
+          "per_call_input_cost_saved": 0.144125,
+          "monthly_input_cost_saved": 14412.5
+        },
+        {
+          "candidate": "csv",
+          "total_tokens": 249369,
+          "payload_tokens": 249364,
+          "instruction_tokens": 5,
+          "token_delta": 28824,
+          "savings_ratio": 0.1036115214976653,
+          "per_call_input_cost_saved": 0.14412,
+          "monthly_input_cost_saved": 14412.0
+        },
+        {
+          "candidate": "raw",
+          "total_tokens": 278193,
+          "payload_tokens": 278193,
+          "instruction_tokens": 0,
+          "token_delta": 0,
+          "savings_ratio": 0.0,
+          "per_call_input_cost_saved": 0.0,
+          "monthly_input_cost_saved": 0.0
+        }
+      ],
+      "external_baselines": [
+        {
+          "baseline": "toon",
+          "available": true,
+          "source_file": "/Users/saminkhan1/Documents/codex-context-compression/reports/generated-baselines/toon/hf-squad.json.txt",
+          "bytes": 1174080,
+          "total_tokens": 278206,
+          "token_delta": -13,
+          "savings_ratio": -4.673014777510577e-05,
+          "per_call_input_cost_saved": -6.5e-05,
+          "monthly_input_cost_saved": -6.5
+        }
+      ],
+      "latency": {
+        "load_milliseconds": 2.613333002955187,
+        "candidate_generation_milliseconds": 99.37791600532364,
+        "token_count_milliseconds": 484.5639990089694,
+        "total_milliseconds": 630.1159579961677,
+        "tokens_saved_per_millisecond": 335.4922174519594,
+        "break_even": {
+          "max_provider_input_tokens_per_second_for_break_even": 335492.2174519594,
+          "projected_input_latency_saved_milliseconds": 140932.66666666666,
+          "projected_net_latency_saved_milliseconds": 140302.5507086705,
+          "projected_break_even": true
+        }
+      }
+    },
+    {
+      "file": "data/benchmark-corpus/hf-squad.jsonl",
+      "kind": "jsonl",
+      "bytes": 1085014,
+      "raw_tokens": 247191,
+      "best": {
+        "candidate": "codebook-json",
+        "total_tokens": 66794,
+        "payload_tokens": 66774,
+        "instruction_tokens": 20,
+        "token_delta": 180397,
+        "savings_ratio": 0.7297878968085407,
+        "per_call_input_cost_saved": 0.901985,
+        "monthly_input_cost_saved": 90198.5
+      },
+      "candidates": [
+        {
+          "candidate": "codebook-json",
+          "total_tokens": 66794,
+          "payload_tokens": 66774,
+          "instruction_tokens": 20,
+          "token_delta": 180397,
+          "savings_ratio": 0.7297878968085407,
+          "per_call_input_cost_saved": 0.901985,
+          "monthly_input_cost_saved": 90198.5
+        },
+        {
+          "candidate": "column-json",
+          "total_tokens": 237220,
+          "payload_tokens": 237214,
+          "instruction_tokens": 6,
+          "token_delta": 9971,
+          "savings_ratio": 0.04033722910623769,
+          "per_call_input_cost_saved": 0.049855,
+          "monthly_input_cost_saved": 4985.5
+        },
+        {
+          "candidate": "codebook-row",
+          "total_tokens": 244596,
+          "payload_tokens": 244578,
+          "instruction_tokens": 18,
+          "token_delta": 2595,
+          "savings_ratio": 0.01049795502263432,
+          "per_call_input_cost_saved": 0.012975,
+          "monthly_input_cost_saved": 1297.5
+        },
+        {
+          "candidate": "compact-json",
+          "total_tokens": 246198,
+          "payload_tokens": 246194,
+          "instruction_tokens": 4,
+          "token_delta": 993,
+          "savings_ratio": 0.00401713654623348,
+          "per_call_input_cost_saved": 0.004965,
+          "monthly_input_cost_saved": 496.5
+        },
+        {
+          "candidate": "raw",
+          "total_tokens": 247191,
+          "payload_tokens": 247191,
+          "instruction_tokens": 0,
+          "token_delta": 0,
+          "savings_ratio": 0.0,
+          "per_call_input_cost_saved": 0.0,
+          "monthly_input_cost_saved": 0.0
+        },
+        {
+          "candidate": "tsv",
+          "total_tokens": 249368,
+          "payload_tokens": 249363,
+          "instruction_tokens": 5,
+          "token_delta": -2177,
+          "savings_ratio": -0.00880695494577068,
+          "per_call_input_cost_saved": -0.010885,
+          "monthly_input_cost_saved": -1088.5
+        },
+        {
+          "candidate": "csv",
+          "total_tokens": 249369,
+          "payload_tokens": 249364,
+          "instruction_tokens": 5,
+          "token_delta": -2178,
+          "savings_ratio": -0.008811000400500018,
+          "per_call_input_cost_saved": -0.01089,
+          "monthly_input_cost_saved": -1089.0
+        }
+      ],
+      "external_baselines": [
+        {
+          "baseline": "toon",
+          "available": true,
+          "source_file": "/Users/saminkhan1/Documents/codex-context-compression/reports/generated-baselines/toon/hf-squad.jsonl.txt",
+          "bytes": 1085078,
+          "total_tokens": 247204,
+          "token_delta": -13,
+          "savings_ratio": -5.2590911481405065e-05,
+          "per_call_input_cost_saved": -6.5e-05,
+          "monthly_input_cost_saved": -6.5
+        }
+      ],
+      "latency": {
+        "load_milliseconds": 3.118291999271605,
+        "candidate_generation_milliseconds": 102.16470899467822,
+        "token_count_milliseconds": 471.9393319901428,
+        "total_milliseconds": 612.5300409985357,
+        "tokens_saved_per_millisecond": 294.5112695304217,
+        "break_even": {
+          "max_provider_input_tokens_per_second_for_break_even": 294511.2695304217,
+          "projected_input_latency_saved_milliseconds": 120264.66666666667,
+          "projected_net_latency_saved_milliseconds": 119652.13662566814,
+          "projected_break_even": true
+        }
+      }
+    },
+    {
+      "file": "data/benchmark-corpus/hf-squad.tsv",
+      "kind": "tsv",
+      "bytes": 1040498,
+      "raw_tokens": 241266,
+      "best": {
+        "candidate": "codebook-json",
+        "total_tokens": 70875,
+        "payload_tokens": 70855,
+        "instruction_tokens": 20,
+        "token_delta": 170391,
+        "savings_ratio": 0.7062370993011863,
+        "per_call_input_cost_saved": 0.851955,
+        "monthly_input_cost_saved": 85195.5
+      },
+      "candidates": [
+        {
+          "candidate": "codebook-json",
+          "total_tokens": 70875,
+          "payload_tokens": 70855,
+          "instruction_tokens": 20,
+          "token_delta": 170391,
+          "savings_ratio": 0.7062370993011863,
+          "per_call_input_cost_saved": 0.851955,
+          "monthly_input_cost_saved": 85195.5
+        },
+        {
+          "candidate": "typed-codebook-row",
+          "total_tokens": 238537,
+          "payload_tokens": 238510,
+          "instruction_tokens": 27,
+          "token_delta": 2729,
+          "savings_ratio": 0.011311166927789246,
+          "per_call_input_cost_saved": 0.013645,
+          "monthly_input_cost_saved": 1364.5
+        },
+        {
+          "candidate": "typed-csv",
+          "total_tokens": 240583,
+          "payload_tokens": 240566,
+          "instruction_tokens": 17,
+          "token_delta": 683,
+          "savings_ratio": 0.0028309003340711084,
+          "per_call_input_cost_saved": 0.003415,
+          "monthly_input_cost_saved": 341.5
+        },
+        {
+          "candidate": "raw",
+          "total_tokens": 241266,
+          "payload_tokens": 241266,
+          "instruction_tokens": 0,
+          "token_delta": 0,
+          "savings_ratio": 0.0,
+          "per_call_input_cost_saved": 0.0,
+          "monthly_input_cost_saved": 0.0
+        },
+        {
+          "candidate": "typed-tsv",
+          "total_tokens": 241290,
+          "payload_tokens": 241273,
+          "instruction_tokens": 17,
+          "token_delta": -24,
+          "savings_ratio": -9.947526796150308e-05,
+          "per_call_input_cost_saved": -0.00012,
+          "monthly_input_cost_saved": -12.0
+        },
+        {
+          "candidate": "column-json",
+          "total_tokens": 242217,
+          "payload_tokens": 242211,
+          "instruction_tokens": 6,
+          "token_delta": -951,
+          "savings_ratio": -0.003941707492974559,
+          "per_call_input_cost_saved": -0.004755,
+          "monthly_input_cost_saved": -475.5
+        },
+        {
+          "candidate": "codebook-row",
+          "total_tokens": 246609,
+          "payload_tokens": 246591,
+          "instruction_tokens": 18,
+          "token_delta": -5343,
+          "savings_ratio": -0.02214568152992962,
+          "per_call_input_cost_saved": -0.026715,
+          "monthly_input_cost_saved": -2671.5
+        },
+        {
+          "candidate": "compact-json",
+          "total_tokens": 251204,
+          "payload_tokens": 251200,
+          "instruction_tokens": 4,
+          "token_delta": -9938,
+          "savings_ratio": -0.04119105054172573,
+          "per_call_input_cost_saved": -0.04969,
+          "monthly_input_cost_saved": -4969.0
+        },
+        {
+          "candidate": "tsv",
+          "total_tokens": 251381,
+          "payload_tokens": 251376,
+          "instruction_tokens": 5,
+          "token_delta": -10115,
+          "savings_ratio": -0.04192468064294182,
+          "per_call_input_cost_saved": -0.050575,
+          "monthly_input_cost_saved": -5057.5
+        },
+        {
+          "candidate": "csv",
+          "total_tokens": 251382,
+          "payload_tokens": 251377,
+          "instruction_tokens": 5,
+          "token_delta": -10116,
+          "savings_ratio": -0.041928825445773546,
+          "per_call_input_cost_saved": -0.05058,
+          "monthly_input_cost_saved": -5058.0
+        }
+      ],
+      "external_baselines": [
+        {
+          "baseline": "toon",
+          "available": true,
+          "source_file": "/Users/saminkhan1/Documents/codex-context-compression/reports/generated-baselines/toon/hf-squad.tsv.txt",
+          "bytes": 1043428,
+          "total_tokens": 241499,
+          "token_delta": -233,
+          "savings_ratio": -0.0009657390597929257,
+          "per_call_input_cost_saved": -0.001165,
+          "monthly_input_cost_saved": -116.5
+        }
+      ],
+      "latency": {
+        "load_milliseconds": 5.5820409979787655,
+        "candidate_generation_milliseconds": 140.1290420035366,
+        "token_count_milliseconds": 668.9752110250993,
+        "total_milliseconds": 848.1814580009086,
+        "tokens_saved_per_millisecond": 200.88979591890285,
+        "break_even": {
+          "max_provider_input_tokens_per_second_for_break_even": 200889.79591890285,
+          "projected_input_latency_saved_milliseconds": 113594.0,
+          "projected_net_latency_saved_milliseconds": 112745.81854199909,
+          "projected_break_even": true
+        }
+      }
+    },
+    {
+      "file": "data/benchmark-corpus/hf-titanic-tabular.csv",
+      "kind": "csv",
+      "bytes": 45385,
+      "raw_tokens": 23491,
+      "best": {
+        "candidate": "codebook-json",
+        "total_tokens": 21216,
+        "payload_tokens": 21196,
+        "instruction_tokens": 20,
+        "token_delta": 2275,
+        "savings_ratio": 0.09684560044272275,
+        "per_call_input_cost_saved": 0.011375,
+        "monthly_input_cost_saved": 1137.5
+      },
+      "candidates": [
+        {
+          "candidate": "codebook-json",
+          "total_tokens": 21216,
+          "payload_tokens": 21196,
+          "instruction_tokens": 20,
+          "token_delta": 2275,
+          "savings_ratio": 0.09684560044272275,
+          "per_call_input_cost_saved": 0.011375,
+          "monthly_input_cost_saved": 1137.5
+        },
+        {
+          "candidate": "raw",
+          "total_tokens": 23491,
+          "payload_tokens": 23491,
+          "instruction_tokens": 0,
+          "token_delta": 0,
+          "savings_ratio": 0.0,
+          "per_call_input_cost_saved": 0.0,
+          "monthly_input_cost_saved": 0.0
+        },
+        {
+          "candidate": "typed-tsv",
+          "total_tokens": 23516,
+          "payload_tokens": 23499,
+          "instruction_tokens": 17,
+          "token_delta": -25,
+          "savings_ratio": -0.0010642373675024477,
+          "per_call_input_cost_saved": -0.000125,
+          "monthly_input_cost_saved": -12.5
+        },
+        {
+          "candidate": "typed-csv",
+          "total_tokens": 23517,
+          "payload_tokens": 23500,
+          "instruction_tokens": 17,
+          "token_delta": -26,
+          "savings_ratio": -0.0011068068622025456,
+          "per_call_input_cost_saved": -0.00013,
+          "monthly_input_cost_saved": -13.0
+        },
+        {
+          "candidate": "column-json",
+          "total_tokens": 24394,
+          "payload_tokens": 24388,
+          "instruction_tokens": 6,
+          "token_delta": -903,
+          "savings_ratio": -0.03844025371418841,
+          "per_call_input_cost_saved": -0.004515,
+          "monthly_input_cost_saved": -451.5
+        },
+        {
+          "candidate": "tsv",
+          "total_tokens": 36804,
+          "payload_tokens": 36799,
+          "instruction_tokens": 5,
+          "token_delta": -13313,
+          "savings_ratio": -0.5667276829424035,
+          "per_call_input_cost_saved": -0.066565,
+          "monthly_input_cost_saved": -6656.5
+        },
+        {
+          "candidate": "csv",
+          "total_tokens": 36805,
+          "payload_tokens": 36800,
+          "instruction_tokens": 5,
+          "token_delta": -13314,
+          "savings_ratio": -0.5667702524371035,
+          "per_call_input_cost_saved": -0.06657,
+          "monthly_input_cost_saved": -6657.0
+        },
+        {
+          "candidate": "compact-json",
+          "total_tokens": 49198,
+          "payload_tokens": 49194,
+          "instruction_tokens": 4,
+          "token_delta": -25707,
+          "savings_ratio": -1.094334000255417,
+          "per_call_input_cost_saved": -0.128535,
+          "monthly_input_cost_saved": -12853.5
+        }
+      ],
+      "external_baselines": [
+        {
+          "baseline": "toon",
+          "available": true,
+          "source_file": "/Users/saminkhan1/Documents/codex-context-compression/reports/generated-baselines/toon/hf-titanic-tabular.csv.txt",
+          "bytes": 57912,
+          "total_tokens": 25294,
+          "token_delta": -1803,
+          "savings_ratio": -0.07675279894427653,
+          "per_call_input_cost_saved": -0.009015,
+          "monthly_input_cost_saved": -901.5
+        }
+      ],
+      "latency": {
+        "load_milliseconds": 0.8629579970147461,
+        "candidate_generation_milliseconds": 29.812750006385613,
+        "token_count_milliseconds": 68.4669990077964,
+        "total_milliseconds": 103.0900829937309,
+        "tokens_saved_per_millisecond": 22.068078072440265,
+        "break_even": {
+          "max_provider_input_tokens_per_second_for_break_even": 22068.078072440265,
+          "projected_input_latency_saved_milliseconds": 1516.6666666666667,
+          "projected_net_latency_saved_milliseconds": 1413.5765836729358,
+          "projected_break_even": true
+        }
+      }
+    },
+    {
+      "file": "data/benchmark-corpus/hf-titanic-tabular.json",
+      "kind": "json",
+      "bytes": 185451,
+      "raw_tokens": 74029,
+      "best": {
+        "candidate": "codebook-json",
+        "total_tokens": 21160,
+        "payload_tokens": 21140,
+        "instruction_tokens": 20,
+        "token_delta": 52869,
+        "savings_ratio": 0.7141660700536276,
+        "per_call_input_cost_saved": 0.264345,
+        "monthly_input_cost_saved": 26434.5
+      },
+      "candidates": [
+        {
+          "candidate": "codebook-json",
+          "total_tokens": 21160,
+          "payload_tokens": 21140,
+          "instruction_tokens": 20,
+          "token_delta": 52869,
+          "savings_ratio": 0.7141660700536276,
+          "per_call_input_cost_saved": 0.264345,
+          "monthly_input_cost_saved": 26434.5
+        },
+        {
+          "candidate": "column-json",
+          "total_tokens": 23506,
+          "payload_tokens": 23500,
+          "instruction_tokens": 6,
+          "token_delta": 50523,
+          "savings_ratio": 0.6824757865160951,
+          "per_call_input_cost_saved": 0.252615,
+          "monthly_input_cost_saved": 25261.5
+        },
+        {
+          "candidate": "typed-tsv",
+          "total_tokens": 23516,
+          "payload_tokens": 23499,
+          "instruction_tokens": 17,
+          "token_delta": 50513,
+          "savings_ratio": 0.6823407043185779,
+          "per_call_input_cost_saved": 0.252565,
+          "monthly_input_cost_saved": 25256.5
+        },
+        {
+          "candidate": "typed-csv",
+          "total_tokens": 23517,
+          "payload_tokens": 23500,
+          "instruction_tokens": 17,
+          "token_delta": 50512,
+          "savings_ratio": 0.6823271960988261,
+          "per_call_input_cost_saved": 0.25256,
+          "monthly_input_cost_saved": 25256.0
+        },
+        {
+          "candidate": "tsv",
+          "total_tokens": 27046,
+          "payload_tokens": 27041,
+          "instruction_tokens": 5,
+          "token_delta": 46983,
+          "savings_ratio": 0.63465668859501,
+          "per_call_input_cost_saved": 0.234915,
+          "monthly_input_cost_saved": 23491.5
+        },
+        {
+          "candidate": "csv",
+          "total_tokens": 27047,
+          "payload_tokens": 27042,
+          "instruction_tokens": 5,
+          "token_delta": 46982,
+          "savings_ratio": 0.6346431803752584,
+          "per_call_input_cost_saved": 0.23491,
+          "monthly_input_cost_saved": 23491.0
+        },
+        {
+          "candidate": "compact-json",
+          "total_tokens": 49197,
+          "payload_tokens": 49193,
+          "instruction_tokens": 4,
+          "token_delta": 24832,
+          "savings_ratio": 0.3354361128746842,
+          "per_call_input_cost_saved": 0.12416,
+          "monthly_input_cost_saved": 12416.0
+        },
+        {
+          "candidate": "raw",
+          "total_tokens": 74029,
+          "payload_tokens": 74029,
+          "instruction_tokens": 0,
+          "token_delta": 0,
+          "savings_ratio": 0.0,
+          "per_call_input_cost_saved": 0.0,
+          "monthly_input_cost_saved": 0.0
+        }
+      ],
+      "external_baselines": [
+        {
+          "baseline": "toon",
+          "available": true,
+          "source_file": "/Users/saminkhan1/Documents/codex-context-compression/reports/generated-baselines/toon/hf-titanic-tabular.json.txt",
+          "bytes": 45222,
+          "total_tokens": 23244,
+          "token_delta": 50785,
+          "savings_ratio": 0.6860149400910454,
+          "per_call_input_cost_saved": 0.253925,
+          "monthly_input_cost_saved": 25392.5
+        }
+      ],
+      "latency": {
+        "load_milliseconds": 0.6927499998710118,
+        "candidate_generation_milliseconds": 37.343957999837585,
+        "token_count_milliseconds": 91.26066601311322,
+        "total_milliseconds": 132.85916700260714,
+        "tokens_saved_per_millisecond": 397.9326469731858,
+        "break_even": {
+          "max_provider_input_tokens_per_second_for_break_even": 397932.64697318577,
+          "projected_input_latency_saved_milliseconds": 35246.0,
+          "projected_net_latency_saved_milliseconds": 35113.14083299739,
+          "projected_break_even": true
+        }
+      }
+    },
+    {
+      "file": "data/benchmark-corpus/hf-titanic-tabular.jsonl",
+      "kind": "jsonl",
+      "bytes": 137551,
+      "raw_tokens": 50078,
+      "best": {
+        "candidate": "codebook-json",
+        "total_tokens": 21160,
+        "payload_tokens": 21140,
+        "instruction_tokens": 20,
+        "token_delta": 28918,
+        "savings_ratio": 0.5774591637046208,
+        "per_call_input_cost_saved": 0.14459,
+        "monthly_input_cost_saved": 14459.0
+      },
+      "candidates": [
+        {
+          "candidate": "codebook-json",
+          "total_tokens": 21160,
+          "payload_tokens": 21140,
+          "instruction_tokens": 20,
+          "token_delta": 28918,
+          "savings_ratio": 0.5774591637046208,
+          "per_call_input_cost_saved": 0.14459,
+          "monthly_input_cost_saved": 14459.0
+        },
+        {
+          "candidate": "column-json",
+          "total_tokens": 23506,
+          "payload_tokens": 23500,
+          "instruction_tokens": 6,
+          "token_delta": 26572,
+          "savings_ratio": 0.5306122448979592,
+          "per_call_input_cost_saved": 0.13286,
+          "monthly_input_cost_saved": 13286.0
+        },
+        {
+          "candidate": "typed-tsv",
+          "total_tokens": 23516,
+          "payload_tokens": 23499,
+          "instruction_tokens": 17,
+          "token_delta": 26562,
+          "savings_ratio": 0.5304125564119972,
+          "per_call_input_cost_saved": 0.13281,
+          "monthly_input_cost_saved": 13281.0
+        },
+        {
+          "candidate": "typed-csv",
+          "total_tokens": 23517,
+          "payload_tokens": 23500,
+          "instruction_tokens": 17,
+          "token_delta": 26561,
+          "savings_ratio": 0.5303925875634011,
+          "per_call_input_cost_saved": 0.132805,
+          "monthly_input_cost_saved": 13280.5
+        },
+        {
+          "candidate": "tsv",
+          "total_tokens": 27046,
+          "payload_tokens": 27041,
+          "instruction_tokens": 5,
+          "token_delta": 23032,
+          "savings_ratio": 0.4599225208674468,
+          "per_call_input_cost_saved": 0.11516,
+          "monthly_input_cost_saved": 11516.0
+        },
+        {
+          "candidate": "csv",
+          "total_tokens": 27047,
+          "payload_tokens": 27042,
+          "instruction_tokens": 5,
+          "token_delta": 23031,
+          "savings_ratio": 0.4599025520188506,
+          "per_call_input_cost_saved": 0.115155,
+          "monthly_input_cost_saved": 11515.5
+        },
+        {
+          "candidate": "compact-json",
+          "total_tokens": 49197,
+          "payload_tokens": 49193,
+          "instruction_tokens": 4,
+          "token_delta": 881,
+          "savings_ratio": 0.01759255561324334,
+          "per_call_input_cost_saved": 0.004405,
+          "monthly_input_cost_saved": 440.5
+        },
+        {
+          "candidate": "raw",
+          "total_tokens": 50078,
+          "payload_tokens": 50078,
+          "instruction_tokens": 0,
+          "token_delta": 0,
+          "savings_ratio": 0.0,
+          "per_call_input_cost_saved": 0.0,
+          "monthly_input_cost_saved": 0.0
+        }
+      ],
+      "external_baselines": [
+        {
+          "baseline": "toon",
+          "available": true,
+          "source_file": "/Users/saminkhan1/Documents/codex-context-compression/reports/generated-baselines/toon/hf-titanic-tabular.jsonl.txt",
+          "bytes": 45222,
+          "total_tokens": 23244,
+          "token_delta": 26834,
+          "savings_ratio": 0.535844083230161,
+          "per_call_input_cost_saved": 0.13417,
+          "monthly_input_cost_saved": 13417.0
+        }
+      ],
+      "latency": {
+        "load_milliseconds": 1.0743750026449561,
+        "candidate_generation_milliseconds": 38.085874999524094,
+        "token_count_milliseconds": 75.65558401256567,
+        "total_milliseconds": 118.3314580048318,
+        "tokens_saved_per_millisecond": 244.38133770665783,
+        "break_even": {
+          "max_provider_input_tokens_per_second_for_break_even": 244381.33770665783,
+          "projected_input_latency_saved_milliseconds": 19278.666666666668,
+          "projected_net_latency_saved_milliseconds": 19160.335208661836,
+          "projected_break_even": true
+        }
+      }
+    },
+    {
+      "file": "data/benchmark-corpus/hf-titanic-tabular.tsv",
+      "kind": "tsv",
+      "bytes": 45385,
+      "raw_tokens": 23490,
+      "best": {
+        "candidate": "codebook-json",
+        "total_tokens": 21216,
+        "payload_tokens": 21196,
+        "instruction_tokens": 20,
+        "token_delta": 2274,
+        "savings_ratio": 0.09680715197956577,
+        "per_call_input_cost_saved": 0.01137,
+        "monthly_input_cost_saved": 1137.0
+      },
+      "candidates": [
+        {
+          "candidate": "codebook-json",
+          "total_tokens": 21216,
+          "payload_tokens": 21196,
+          "instruction_tokens": 20,
+          "token_delta": 2274,
+          "savings_ratio": 0.09680715197956577,
+          "per_call_input_cost_saved": 0.01137,
+          "monthly_input_cost_saved": 1137.0
+        },
+        {
+          "candidate": "raw",
+          "total_tokens": 23490,
+          "payload_tokens": 23490,
+          "instruction_tokens": 0,
+          "token_delta": 0,
+          "savings_ratio": 0.0,
+          "per_call_input_cost_saved": 0.0,
+          "monthly_input_cost_saved": 0.0
+        },
+        {
+          "candidate": "typed-tsv",
+          "total_tokens": 23516,
+          "payload_tokens": 23499,
+          "instruction_tokens": 17,
+          "token_delta": -26,
+          "savings_ratio": -0.001106853980417199,
+          "per_call_input_cost_saved": -0.00013,
+          "monthly_input_cost_saved": -13.0
+        },
+        {
+          "candidate": "typed-csv",
+          "total_tokens": 23517,
+          "payload_tokens": 23500,
+          "instruction_tokens": 17,
+          "token_delta": -27,
+          "savings_ratio": -0.0011494252873563218,
+          "per_call_input_cost_saved": -0.000135,
+          "monthly_input_cost_saved": -13.5
+        },
+        {
+          "candidate": "column-json",
+          "total_tokens": 24394,
+          "payload_tokens": 24388,
+          "instruction_tokens": 6,
+          "token_delta": -904,
+          "savings_ratio": -0.03848446147296722,
+          "per_call_input_cost_saved": -0.00452,
+          "monthly_input_cost_saved": -452.0
+        },
+        {
+          "candidate": "tsv",
+          "total_tokens": 36804,
+          "payload_tokens": 36799,
+          "instruction_tokens": 5,
+          "token_delta": -13314,
+          "savings_ratio": -0.566794380587484,
+          "per_call_input_cost_saved": -0.06657,
+          "monthly_input_cost_saved": -6657.0
+        },
+        {
+          "candidate": "csv",
+          "total_tokens": 36805,
+          "payload_tokens": 36800,
+          "instruction_tokens": 5,
+          "token_delta": -13315,
+          "savings_ratio": -0.5668369518944232,
+          "per_call_input_cost_saved": -0.066575,
+          "monthly_input_cost_saved": -6657.5
+        },
+        {
+          "candidate": "compact-json",
+          "total_tokens": 49198,
+          "payload_tokens": 49194,
+          "instruction_tokens": 4,
+          "token_delta": -25708,
+          "savings_ratio": -1.094423158790975,
+          "per_call_input_cost_saved": -0.12854,
+          "monthly_input_cost_saved": -12854.0
+        }
+      ],
+      "external_baselines": [
+        {
+          "baseline": "toon",
+          "available": true,
+          "source_file": "/Users/saminkhan1/Documents/codex-context-compression/reports/generated-baselines/toon/hf-titanic-tabular.tsv.txt",
+          "bytes": 57912,
+          "total_tokens": 25294,
+          "token_delta": -1804,
+          "savings_ratio": -0.07679863771817795,
+          "per_call_input_cost_saved": -0.00902,
+          "monthly_input_cost_saved": -902.0
+        }
+      ],
+      "latency": {
+        "load_milliseconds": 0.7914169982541353,
+        "candidate_generation_milliseconds": 29.79879199847346,
+        "token_count_milliseconds": 69.43170899467077,
+        "total_milliseconds": 103.77470900129993,
+        "tokens_saved_per_millisecond": 21.912853544802665,
+        "break_even": {
+          "max_provider_input_tokens_per_second_for_break_even": 21912.853544802663,
+          "projected_input_latency_saved_milliseconds": 1516.0,
+          "projected_net_latency_saved_milliseconds": 1412.2252909987,
+          "projected_break_even": true
+        }
+      }
+    }
+  ]
+}

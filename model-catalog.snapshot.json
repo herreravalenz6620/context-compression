@@ -1,0 +1,47 @@
+{
+  "models": [
+    {
+      "slug": "gpt-5.5",
+      "display_name": "GPT-5.5",
+      "context_window": 272000,
+      "max_output_tokens": 128000,
+      "knowledge_cutoff": "2025-12-01",
+      "source": "https://github.com/openai/codex/blob/main/codex-rs/models-manager/models.json",
+      "source_checked": "2026-05-21"
+    },
+    {
+      "slug": "gpt-5.4",
+      "display_name": "GPT-5.4",
+      "context_window": 1000000,
+      "max_output_tokens": 128000,
+      "knowledge_cutoff": "2025-08-31",
+      "source": "https://developers.openai.com/api/docs/models",
+      "source_checked": "2026-05-21"
+    },
+    {
+      "slug": "gpt-5.4-mini",
+      "display_name": "GPT-5.4 mini",
+      "context_window": 400000,
+      "max_output_tokens": 128000,
+      "knowledge_cutoff": "2025-08-31",
+      "source": "https://developers.openai.com/api/docs/models",
+      "source_checked": "2026-05-21"
+    },
+    {
+      "slug": "gpt-5.3-codex",
+      "display_name": "gpt-5.3-codex",
+      "context_window": 272000,
+      "auto_compact_token_limit": null,
+      "source": "https://github.com/openai/codex/blob/main/codex-rs/models-manager/models.json",
+      "source_checked": "2026-05-21"
+    },
+    {
+      "slug": "gpt-5.2",
+      "display_name": "gpt-5.2",
+      "context_window": 272000,
+      "auto_compact_token_limit": null,
+      "source": "https://github.com/openai/codex/blob/main/codex-rs/models-manager/models.json",
+      "source_checked": "2026-05-21"
+    }
+  ]
+}

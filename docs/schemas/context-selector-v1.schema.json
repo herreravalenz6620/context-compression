@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/context-compression/context-selector-v1.schema.json",
+  "title": "Context Selector Decision Report",
+  "type": "object",
+  "required": ["schema_version", "adapter", "cwd", "out_dir", "model_profile", "policy", "summary", "results"],
+  "properties": {
+    "schema_version": {
+      "const": "context-selector/v1"
+    },
+    "adapter": {
+      "type": "string"
+    },
+    "cwd": {
+      "type": "string"
+    },
+    "out_dir": {
+      "type": "string"
+    },
+    "model_profile": {
+      "type": "object",
+      "required": ["slug", "provider", "tokenizer_family", "token_counter", "source"],
+      "additionalProperties": true,
+      "properties": {
+        "slug": { "type": "string" },
+        "provider": { "type": "string" },
+        "tokenizer_family": { "type": "string" },
+        "token_counter": { "type": "string" },
+        "context_window": { "type": ["integer", "null"] },
+        "auto_compact_token_limit": { "type": ["integer", "null"] },
+        "source": { "type": "string" }
+      }
+    },
+    "policy": {
+      "type": "object",
+      "required": ["supported_extensions", "max_bytes", "min_savings_ratio", "min_saved_tokens", "include_candidates"],
+      "properties": {
+        "supported_extensions": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "max_bytes": { "type": "integer" },
+        "min_savings_ratio": { "type": "number" },
+        "min_saved_tokens": { "type": "integer" },
+        "include_candidates": { "type": "boolean" }
+      }
+    },
+    "summary": {
+      "type": "object",
+      "required": ["files", "selected_files", "raw_tokens", "selected_tokens", "saved_tokens", "savings_ratio"],
+      "properties": {
+        "files": { "type": "integer" },
+        "selected_files": { "type": "integer" },
+        "raw_tokens": { "type": "integer" },
+        "selected_tokens": { "type": "integer" },
+        "saved_tokens": { "type": "integer" },
+        "savings_ratio": { "type": "number" }
+      }
+    },
+    "results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["source", "source_name", "selected", "decision", "read_path"],
+        "properties": {
+          "source": { "type": "string" },
+          "source_name": { "type": "string" },
+          "selected": { "type": "boolean" },
+          "decision": {
+            "enum": ["selected", "unsupported_format", "too_large", "raw_best", "below_threshold", "below_min_saved_tokens", "error"]
+          },
+          "read_path": { "type": "string" },
+          "kind": { "type": "string" },
+          "bytes": { "type": "integer" },
+          "sha256": { "type": "string" },
+          "raw_tokens": { "type": "integer" },
+          "selected_format": { "type": "string" },
+          "selected_tokens": { "type": "integer" },
+          "payload_tokens": { "type": "integer" },
+          "instruction_tokens": { "type": "integer" },
+          "saved_tokens": { "type": "integer" },
+          "savings_ratio": { "type": "number" },
+          "token_counter_label": { "enum": ["exact", "estimated"] },
+          "output_path": { "type": ["string", "null"] },
+          "output_sha256": { "type": ["string", "null"] },
+          "notes": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "error": { "type": "string" }
+        }
+      }
+    }
+  }
+}

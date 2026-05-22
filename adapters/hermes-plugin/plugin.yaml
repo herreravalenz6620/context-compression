@@ -1,0 +1,6 @@
+name: context_selector
+version: "0.1.0"
+description: "Verifier-gated lossless structured-context read_file optimizer."
+provides_tools:
+  - read_file
+provides_hooks: []
